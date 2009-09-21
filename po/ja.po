@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: 1.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2009-09-10 08:40+0000\n"
-"PO-Revision-Date: 2009-09-10 21:13+0900\n"
+"POT-Creation-Date: 2009-09-21 04:58+0000\n"
+"PO-Revision-Date: 2009-09-21 17:05+0900\n"
 "Last-Translator: Hyu_gabaru Ryu_ichi <hyu_gabaru@yahoo.co.jp>\n"
 "Language-Team: Japanese <fedora-trans-ja@redhat.com>\n"
 "MIME-Version: 1.0\n"
@@ -17,54 +17,57 @@ msgstr ""
 
 #: ../src/paprefs.desktop.in.h:1 ../src/paprefs.glade.h:17
 msgid "PulseAudio Preferences"
-msgstr ""
+msgstr "PulseAudio のお好み"
 
 #: ../src/paprefs.desktop.in.h:2
 msgid "Sound Server Preferences"
-msgstr ""
+msgstr "サウンドサーバーのお好み"
 
 #: ../src/paprefs.desktop.in.h:3
 msgid "View and modify the configuration of the local sound server"
-msgstr ""
+msgstr "ローカルサウンドサーバーの設定を表示し、変更する"
 
 #: ../src/paprefs.glade.h:1
 msgid ""
 "<i>Apple and AirTunes are trademarks of Apple Inc., registered in the U.S. "
 "and other countries.</i>"
 msgstr ""
+"<i>Apple と AirTunes は 合衆国と他の国で登録された Apple Inc. の商標です。"
+"</i>"
 
 #: ../src/paprefs.glade.h:2
 msgid ""
 "Add _virtual output device for simultaneous output on all local sound cards"
 msgstr ""
+"全ローカルサウンドカードに同時出力するための仮想出力装置を追加する(_V)"
 
 #: ../src/paprefs.glade.h:3
 msgid "Allow other machines on the LAN to _discover local sound devices"
-msgstr ""
+msgstr "LAN 上の他のマシンがローカルサウンド装置を見つけるのを許可する(_D)"
 
 #: ../src/paprefs.glade.h:4
 msgid "Create separate audio device _for Multicast/RTP"
-msgstr ""
+msgstr "Multcast/RTP 用に別の音声装置を生成する(_F)"
 
 #: ../src/paprefs.glade.h:5
 msgid "Create separate audio device for DLNA/UPnP media streaming"
-msgstr ""
+msgstr "DLNA/UPnP メディアストリーミング用に別の音声装置を生成する"
 
 #: ../src/paprefs.glade.h:6
 msgid "Don't _require authentication"
-msgstr ""
+msgstr "認証を必要としない(_R)"
 
 #: ../src/paprefs.glade.h:7
 msgid "Enable Multicast/RTP re_ceiver"
-msgstr ""
+msgstr "Multcast/RTP 受信機を有効にする(_C)"
 
 #: ../src/paprefs.glade.h:8
 msgid "Enable Multicast/RTP s_ender"
-msgstr ""
+msgstr "Multicast/RTP 送信機を有効にする(_E)"
 
 #: ../src/paprefs.glade.h:9
 msgid "Enable _network access to local sound devices"
-msgstr ""
+msgstr "ローカルサウンド装置にネットワークアクセスを有効にする(_N)"
 
 #: ../src/paprefs.glade.h:10
 msgid "Install..."
@@ -72,19 +75,21 @@ msgstr "インストール..."
 
 #: ../src/paprefs.glade.h:11
 msgid "Make discoverable Apple A_irTunes sound devices available locally"
-msgstr ""
+msgstr "発見できる Apple A_irTunes サウンド装置をローカルで利用可能にする"
 
 #: ../src/paprefs.glade.h:12
 msgid "Make discoverable _PulseAudio network sound devices available locally"
 msgstr ""
+"発見できる _PulseAudio ネットワークサウンド装置をローカルで利用可能にする"
 
 #: ../src/paprefs.glade.h:13
 msgid "Make local sound devices available as DLNA/_UPnP Media Server"
 msgstr ""
+"ローカルのサウンド装置を DLNA/_UPnP メディアサーバーとして利用可能にする"
 
 #: ../src/paprefs.glade.h:14
 msgid "Multicast/R_TP"
-msgstr ""
+msgstr "Multicast/R_TP"
 
 #: ../src/paprefs.glade.h:15
 msgid "Network _Access"
@@ -96,16 +101,16 @@ msgstr "ネットワークサーバー(_S)"
 
 #: ../src/paprefs.glade.h:18
 msgid "Send audio from local _microphone"
-msgstr ""
+msgstr "ローカルのマイクロフォンから音声を送る(_M)"
 
 #: ../src/paprefs.glade.h:19
 msgid "Send audio from local spea_kers"
-msgstr ""
+msgstr "ローカルのスピーカーから音声を送る(_K)"
 
 #: ../src/paprefs.glade.h:20
 msgid "Simultaneous _Output"
-msgstr ""
+msgstr "同時出力(_O)"
 
 #: ../src/paprefs.glade.h:21
 msgid "_Loop back audio to local speakers"
-msgstr ""
+msgstr "音声をローカルのスピーカーにループバックする"
