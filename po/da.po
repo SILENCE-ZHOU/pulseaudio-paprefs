@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: paprefs\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2009-09-10 03:48+0200\n"
-"PO-Revision-Date: 2009-04-15 17:14+0200\n"
+"POT-Creation-Date: 2009-09-01 19:56+0000\n"
+"PO-Revision-Date: 2009-10-04 18:05+0200\n"
 "Last-Translator: Kris Thomsen <lakristho@gmail.com>\n"
 "Language-Team: Dansk <dansk@dansk-gruppen.dk>\n"
 "MIME-Version: 1.0\n"
@@ -28,12 +28,11 @@ msgid "View and modify the configuration of the local sound server"
 msgstr "Vis og redigér konfigurationen af den lokale lydserver"
 
 #: ../src/paprefs.glade.h:1
-#, fuzzy
 msgid ""
 "<i>Apple and AirTunes are trademarks of Apple Inc., registered in the U.S. "
 "and other countries.</i>"
 msgstr ""
-"<i>Apple og Airtune er varemærker af Apple Inc., registreret i USA, og andre "
+"<i>Apple og AirTunes er varemærker af Apple Inc., registreret i USA, og andre "
 "lande.</i>"
 
 #: ../src/paprefs.glade.h:2
@@ -46,27 +45,22 @@ msgid "Allow other machines on the LAN to _discover local sound devices"
 msgstr "Tillad andre maskine på det lokale netværk at _finde lokale lydenheder"
 
 #: ../src/paprefs.glade.h:4
-#, fuzzy
 msgid "Create separate audio device _for Multicast/RTP"
-msgstr "Opret seperat lyd_enhed til Multicast/RTP"
+msgstr "Opret seperat lydenhed _til Multicast/RTP"
 
 #: ../src/paprefs.glade.h:5
-#, fuzzy
 msgid "Create separate audio device for DLNA/UPnP media streaming"
-msgstr "Opret seperat lyd_enhed til Multicast/RTP"
+msgstr "Opret seperat lydenhed til DLNA/UPnP-mediastreaming"
 
 #: ../src/paprefs.glade.h:6
-#, fuzzy
 msgid "Don't _require authentication"
-msgstr "Undlad at kræve _godkendelse"
+msgstr "_Kræv ikke godkendelse"
 
 #: ../src/paprefs.glade.h:7
-#, fuzzy
 msgid "Enable Multicast/RTP re_ceiver"
 msgstr "Aktivér Multicast/RTP-_modtager"
 
 #: ../src/paprefs.glade.h:8
-#, fuzzy
 msgid "Enable Multicast/RTP s_ender"
 msgstr "Aktivér Multicast/RTP-_sender"
 
@@ -76,52 +70,45 @@ msgstr "Aktivér _netværksadgang til lokale lydenheder"
 
 #: ../src/paprefs.glade.h:10
 msgid "Install..."
-msgstr ""
+msgstr "Installér..."
 
 #: ../src/paprefs.glade.h:11
-#, fuzzy
 msgid "Make discoverable Apple A_irTunes sound devices available locally"
-msgstr "Gør opdagelsesbare Apple Air_tunes-lydenheder tilgængelige lokalt"
+msgstr "Gør synlige Apple A_irTunes-lydenheder tilgængelige lokalt"
 
 #: ../src/paprefs.glade.h:12
-#, fuzzy
 msgid "Make discoverable _PulseAudio network sound devices available locally"
-msgstr "_Opret opdagelsesbare netværkslydenheder tilgængeligt lokalt"
+msgstr "Gør synlige _PulseAudio-netværkslydenheder tilgængelige lokalt"
 
 #: ../src/paprefs.glade.h:13
 msgid "Make local sound devices available as DLNA/_UPnP Media Server"
-msgstr ""
+msgstr "Gør lokale lydenheder tilgængelige som DLNA/_UPnP-mediaserver"
 
 #: ../src/paprefs.glade.h:14
 msgid "Multicast/R_TP"
 msgstr "Multicast/R_TP"
 
 #: ../src/paprefs.glade.h:15
-#, fuzzy
 msgid "Network _Access"
-msgstr "N_etværksadgang"
+msgstr "Netværks_adgang"
 
 #: ../src/paprefs.glade.h:16
-#, fuzzy
 msgid "Network _Server"
-msgstr "N_etværksadgang"
+msgstr "Netværks_server"
 
 #: ../src/paprefs.glade.h:18
 msgid "Send audio from local _microphone"
-msgstr "Send lyd fra lokal m_ikrofon"
+msgstr "Send lyd fra lokal _mikrofon"
 
 #: ../src/paprefs.glade.h:19
-#, fuzzy
 msgid "Send audio from local spea_kers"
 msgstr "Send lyd fra lokale _højtalere"
 
 #: ../src/paprefs.glade.h:20
-#, fuzzy
 msgid "Simultaneous _Output"
-msgstr "Sam_tidig uddata"
+msgstr "Samtidig _output"
 
 #: ../src/paprefs.glade.h:21
-#, fuzzy
 msgid "_Loop back audio to local speakers"
 msgstr "_Loopback lyd til lokale højtalere"
 
