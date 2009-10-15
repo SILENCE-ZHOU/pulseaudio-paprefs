@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: HEAD\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2009-09-30 21:34+0000\n"
-"PO-Revision-Date: 2009-10-04 12:41+0100\n"
+"PO-Revision-Date: 2009-10-15 13:55+0100\n"
 "Last-Translator: KAMI <kami911@gmail.com>\n"
 "Language-Team: Hungarian <gnome@fsf.hu>\n"
 "MIME-Version: 1.0\n"
@@ -100,7 +100,7 @@ msgstr "Helyi _mikrofon hangjának küldése"
 
 #: ../src/paprefs.glade.h:19
 msgid "Send audio from local spea_kers"
-msgstr "Helyi _hangszoró hangjának küldése"
+msgstr "Helyi _hangszóró hangjának küldése"
 
 #: ../src/paprefs.glade.h:20
 msgid "Simultaneous _Output"
