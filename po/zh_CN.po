@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: paprefs.master-tx.paprefs\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2009-09-10 03:48+0200\n"
-"PO-Revision-Date: 2009-04-03 19:14+1000\n"
+"POT-Creation-Date: 2009-11-15 20:37+0000\n"
+"PO-Revision-Date: 2009-11-16 11:05+0800\n"
 "Last-Translator: Leah Liu <lliu@redhat.com>\n"
 "Language-Team: Simplified Chinese <zh@li.org>\n"
 "MIME-Version: 1.0\n"
@@ -33,40 +33,37 @@ msgid ""
 "<i>Apple and AirTunes are trademarks of Apple Inc., registered in the U.S. "
 "and other countries.</i>"
 msgstr ""
+"<i>Apple and AirTunes are trademarks of Apple Inc., registered in the U.S. "
+"and other countries.</i>"
 
 #: ../src/paprefs.glade.h:2
 msgid ""
 "Add _virtual output device for simultaneous output on all local sound cards"
-msgstr "在所有本地声卡中为模拟输出添加虚拟（_v）输出设备"
+msgstr "在所有本地声卡中为模拟输出添加虚拟输出设备（_v）"
 
 #: ../src/paprefs.glade.h:3
 msgid "Allow other machines on the LAN to _discover local sound devices"
-msgstr "允许 LAN 中的其它机器发现（_d）本地声音设备"
+msgstr "允许 LAN 中的其它机器发现本地声音设备（_d）"
 
 #: ../src/paprefs.glade.h:4
-#, fuzzy
 msgid "Create separate audio device _for Multicast/RTP"
-msgstr "为多广播/RTP 创建独立音频设备（_d）"
+msgstr "为多播/RTP 创建独立音频设备（_f）"
 
 #: ../src/paprefs.glade.h:5
-#, fuzzy
 msgid "Create separate audio device for DLNA/UPnP media streaming"
-msgstr "为多广播/RTP 创建独立音频设备（_d）"
+msgstr "为 DLNA/UPnP 媒体流创建独立音频设备"
 
 #: ../src/paprefs.glade.h:6
-#, fuzzy
 msgid "Don't _require authentication"
-msgstr "不需要验证（_a）"
+msgstr "不需要验证（_r）"
 
 #: ../src/paprefs.glade.h:7
-#, fuzzy
 msgid "Enable Multicast/RTP re_ceiver"
-msgstr "启用多广播/RTP 接收器（_r）"
+msgstr "启用多播/RTP 接收器（_c）"
 
 #: ../src/paprefs.glade.h:8
-#, fuzzy
 msgid "Enable Multicast/RTP s_ender"
-msgstr "启用多广播/RTP 发射器（_s）"
+msgstr "启用多播/RTP 发射器（_e）"
 
 #: ../src/paprefs.glade.h:9
 msgid "Enable _network access to local sound devices"
@@ -74,54 +71,47 @@ msgstr "启用到本地声音设备的网络访问（_n）"
 
 #: ../src/paprefs.glade.h:10
 msgid "Install..."
-msgstr ""
+msgstr "安装..."
 
 #: ../src/paprefs.glade.h:11
-#, fuzzy
 msgid "Make discoverable Apple A_irTunes sound devices available locally"
-msgstr "使可找到的网络声音设备在本地可用（_M）"
+msgstr "使可找到的 Apple A_irTunes 声音设备在本地可用（_i）"
 
 #: ../src/paprefs.glade.h:12
-#, fuzzy
 msgid "Make discoverable _PulseAudio network sound devices available locally"
-msgstr "使可找到的网络声音设备在本地可用（_M）"
+msgstr "使可找到的 _PulseAudio 网络声音设备在本地可用"
 
 #: ../src/paprefs.glade.h:13
 msgid "Make local sound devices available as DLNA/_UPnP Media Server"
-msgstr ""
+msgstr "使本地声音设备可成为 DLNA/_UPnP 媒体服务器"
 
 #: ../src/paprefs.glade.h:14
 msgid "Multicast/R_TP"
 msgstr "多广播/RTP（_T）"
 
 #: ../src/paprefs.glade.h:15
-#, fuzzy
 msgid "Network _Access"
-msgstr "网络访问（_e）"
+msgstr "网络访问（_A）"
 
 #: ../src/paprefs.glade.h:16
-#, fuzzy
 msgid "Network _Server"
-msgstr "网络访问（_e）"
+msgstr "网络服务器（_S）"
 
 #: ../src/paprefs.glade.h:18
 msgid "Send audio from local _microphone"
-msgstr "从本地麦克风（_m）发送音频"
+msgstr "从本地麦克风发送音频（_m）"
 
 #: ../src/paprefs.glade.h:19
-#, fuzzy
 msgid "Send audio from local spea_kers"
-msgstr "从本地音箱（_p）发送音频"
+msgstr "从本地音箱发送音频"
 
 #: ../src/paprefs.glade.h:20
-#, fuzzy
 msgid "Simultaneous _Output"
-msgstr "模拟（_u）输出"
+msgstr "同时输出（_O）"
 
 #: ../src/paprefs.glade.h:21
-#, fuzzy
 msgid "_Loop back audio to local speakers"
-msgstr "到本地音箱的回路（_L）音频"
+msgstr "到本地音箱的回路音频（_L）"
 
 #~ msgid ""
 #~ "<span color=\"black\">View and modify the configuration of your local "
