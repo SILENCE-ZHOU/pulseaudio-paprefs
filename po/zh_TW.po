@@ -7,44 +7,43 @@ msgid ""
 msgstr ""
 "Project-Id-Version: paprefs.master-tx.paprefs\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2009-12-10 02:33+0000\n"
-"PO-Revision-Date: 2009-12-10 14:13+1000\n"
-"Last-Translator: Chester Cheng <ccheng@紅帽子>\n"
+"POT-Creation-Date: 2010-02-17 07:10+0000\n"
+"PO-Revision-Date: 2010-02-18 14:11+0800\n"
+"Last-Translator: Cheng-Chia Tseng <pswo10680@gmail.com>\n"
 "Language-Team: Traditional Chinese <zh_TW@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: KBabel 1.11.4\n"
 
-#: ../src/paprefs.desktop.in.h:1 ../src/paprefs.glade.h:17
+#: ../src/paprefs.desktop.in.h:1
+#: ../src/paprefs.glade.h:17
 msgid "PulseAudio Preferences"
 msgstr "PulseAudio 偏好設定"
 
 #: ../src/paprefs.desktop.in.h:2
 msgid "Sound Server Preferences"
-msgstr "聲音伺服器偏好設定"
+msgstr "音效伺服器偏好設定"
 
 #: ../src/paprefs.desktop.in.h:3
 msgid "View and modify the configuration of the local sound server"
-msgstr "檢視並修改本機聲音伺服器的配置"
+msgstr "檢視並修改本機音效伺服器的配置"
 
 #: ../src/paprefs.glade.h:1
-msgid ""
-"<i>Apple and AirTunes are trademarks of Apple Inc., registered in the U.S. "
-"and other countries.</i>"
+msgid "<i>Apple and AirTunes are trademarks of Apple Inc., registered in the U.S. and other countries.</i>"
 msgstr "<i>Apple 與 AirTunes 是蘋果公司（Apple Inc.）在美國與其它國家的註冊商標。</i>"
 
 #: ../src/paprefs.glade.h:2
 msgid "Add _virtual output device for simultaneous output on all local sound cards"
-msgstr "新增虛擬輸出裝置，好在所有本地音效卡上同步輸出（_v）"
+msgstr "新增虛擬輸出裝置，好在所有本地音效卡上同步輸出 (_V)"
 
 #: ../src/paprefs.glade.h:3
 msgid "Allow other machines on the LAN to _discover local sound devices"
-msgstr "讓其它區域網路上的機器找到本機的聲音裝置（_d）"
+msgstr "讓其它區域網路上的機器找到本機的聲音裝置 (_D)"
 
 #: ../src/paprefs.glade.h:4
 msgid "Create separate audio device _for Multicast/RTP"
-msgstr "為 Multicast/RTP 建立獨立的聲音裝置（_f）"
+msgstr "為 Multicast/RTP 建立獨立的聲音裝置 (_F)"
 
 #: ../src/paprefs.glade.h:5
 msgid "Create separate audio device for DLNA/UPnP media streaming"
@@ -52,19 +51,19 @@ msgstr "為 DLNA/UPnP 的串流建立獨立的聲音裝置"
 
 #: ../src/paprefs.glade.h:6
 msgid "Don't _require authentication"
-msgstr "不需要身份認證（_r）"
+msgstr "不需要身份認證 (_R)"
 
 #: ../src/paprefs.glade.h:7
 msgid "Enable Multicast/RTP re_ceiver"
-msgstr "啟用 Multicast/RTP 接收（_c）"
+msgstr "啟用 Multicast/RTP 接收 (_C)"
 
 #: ../src/paprefs.glade.h:8
 msgid "Enable Multicast/RTP s_ender"
-msgstr "啟用 Multicast/RTP 發送（_e）"
+msgstr "啟用 Multicast/RTP 發送 (_E)"
 
 #: ../src/paprefs.glade.h:9
 msgid "Enable _network access to local sound devices"
-msgstr "為本機聲音裝置啟用網路存取功能（_n）"
+msgstr "為本機聲音裝置啟用網路存取功能 (_N)"
 
 #: ../src/paprefs.glade.h:10
 msgid "Install..."
@@ -72,15 +71,15 @@ msgstr "安裝..."
 
 #: ../src/paprefs.glade.h:11
 msgid "Make discoverable Apple A_irTunes sound devices available locally"
-msgstr "讓本機能使用可搜尋到的 Apple AirTunes 聲音裝置（_i）"
+msgstr "讓本機能使用可搜尋到的 Apple AirTunes 聲音裝置 (_I)"
 
 #: ../src/paprefs.glade.h:12
 msgid "Make discoverable _PulseAudio network sound devices available locally"
-msgstr "讓本機能使用可搜尋到的 PulseAudio 網路聲音裝置（_P）"
+msgstr "讓本機能使用可搜尋到的 PulseAudio 網路聲音裝置 (_P)"
 
 #: ../src/paprefs.glade.h:13
 msgid "Make local sound devices available as DLNA/_UPnP Media Server"
-msgstr "讓本機的聲音裝置成為 DLNA/UPnP 媒體伺服器（_U）"
+msgstr "讓本機的聲音裝置成為 DLNA/UPnP 媒體伺服器 (_U)"
 
 #: ../src/paprefs.glade.h:14
 msgid "Multicast/R_TP"
@@ -88,25 +87,25 @@ msgstr "Multicast/R_TP"
 
 #: ../src/paprefs.glade.h:15
 msgid "Network _Access"
-msgstr "網路存取（_A）"
+msgstr "網路存取 (_A)"
 
 #: ../src/paprefs.glade.h:16
 msgid "Network _Server"
-msgstr "網路伺服器（_S）"
+msgstr "網路伺服器 (_S)"
 
 #: ../src/paprefs.glade.h:18
 msgid "Send audio from local _microphone"
-msgstr "從本機的麥克風發送聲音（_m）"
+msgstr "從本機的麥克風發送聲音 (_M)"
 
 #: ../src/paprefs.glade.h:19
 msgid "Send audio from local spea_kers"
-msgstr "從本機的喇叭發送聲音（_k）"
+msgstr "從本機的喇叭發送聲音 (_K)"
 
 #: ../src/paprefs.glade.h:20
 msgid "Simultaneous _Output"
-msgstr "同步輸出（_O）"
+msgstr "同步輸出 (_O)"
 
 #: ../src/paprefs.glade.h:21
 msgid "_Loop back audio to local speakers"
-msgstr "把聲音導回本機的喇叭（_L）"
+msgstr "把聲音導回本機的喇叭 (_L)"
 
