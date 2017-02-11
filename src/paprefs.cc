@@ -60,6 +60,7 @@ public:
         *rtpReceiveCheckButton,
         *rtpSendCheckButton,
         *rtpLoopbackCheckButton,
+        *rtpPortCheckButton,
         *combineCheckButton,
         *upnpMediaServerCheckButton,
         *upnpNullSinkCheckButton;
@@ -146,6 +147,7 @@ MainWindow::MainWindow(BaseObjectType* cobject, const Glib::RefPtr<Gnome::Glade:
     x->get_widget("rtpReceiveCheckButton", rtpReceiveCheckButton);
     x->get_widget("rtpSendCheckButton", rtpSendCheckButton);
     x->get_widget("rtpLoopbackCheckButton", rtpLoopbackCheckButton);
+    x->get_widget("rtpPortCheckButton", rtpPortCheckButton);
     x->get_widget("combineCheckButton", combineCheckButton);
     x->get_widget("upnpMediaServerCheckButton", upnpMediaServerCheckButton);
     x->get_widget("upnpNullSinkCheckButton", upnpNullSinkCheckButton);
@@ -177,6 +179,7 @@ MainWindow::MainWindow(BaseObjectType* cobject, const Glib::RefPtr<Gnome::Glade:
 
     rtpSendCheckButton->signal_toggled().connect(sigc::mem_fun(*this, &MainWindow::onChangeRtpSend));
     rtpLoopbackCheckButton->signal_toggled().connect(sigc::mem_fun(*this, &MainWindow::onChangeRtpSend));
+    rtpPortCheckButton->signal_toggled().connect(sigc::mem_fun(*this, &MainWindow::onChangeRtpSend));
     rtpMikeRadioButton->signal_clicked().connect(sigc::mem_fun(*this, &MainWindow::onChangeRtpSend));
     rtpSpeakerRadioButton->signal_clicked().connect(sigc::mem_fun(*this, &MainWindow::onChangeRtpSend));
     rtpNullSinkRadioButton->signal_clicked().connect(sigc::mem_fun(*this, &MainWindow::onChangeRtpSend));
@@ -221,6 +224,7 @@ void MainWindow::updateSensitive() {
     rtpSendCheckButton->set_sensitive(rtpSendAvailable);
     b = rtpSendCheckButton->get_active();
     rtpLoopbackCheckButton->set_sensitive(b && !rtpSpeakerRadioButton->get_active() && rtpSendAvailable);
+    rtpPortCheckButton->set_sensitive(b && rtpSendAvailable);
     rtpMikeRadioButton->set_sensitive(b && rtpSendAvailable);
     rtpSpeakerRadioButton->set_sensitive(b && rtpSendAvailable);
     rtpNullSinkRadioButton->set_sensitive(b && rtpSendAvailable);
@@ -513,12 +517,13 @@ void MainWindow::writeToGConfRtpReceive() {
 
 void MainWindow::writeToGConfRtpSend() {
     Gnome::Conf::ChangeSet changeSet;
-    bool loopbackEnabled, mikeEnabled, speakerEnabled = false;
+    bool loopbackEnabled, fixedPort, mikeEnabled, speakerEnabled = false;
 
     changeSet.set(PA_GCONF_PATH_MODULES"/rtp-send/locked", true);
     gconf->change_set_commit(changeSet, true);
 
     changeSet.set(PA_GCONF_PATH_MODULES"/rtp-send/loopback_enabled", loopbackEnabled = rtpLoopbackCheckButton->get_active());
+    changeSet.set(PA_GCONF_PATH_MODULES"/rtp-send/fixed_port", fixedPort = rtpPortCheckButton->get_active());
 
     changeSet.set(PA_GCONF_PATH_MODULES"/rtp-send/mode", Glib::ustring(
                           (mikeEnabled = rtpMikeRadioButton->get_active()) ? "microphone" :
@@ -534,7 +539,18 @@ void MainWindow::writeToGConfRtpSend() {
                                                                                 "sink_properties=\"device.description='RTP Multicast' device.bus='network' device.icon_name='network-server'\""));
 
             changeSet.set(PA_GCONF_PATH_MODULES"/rtp-send/name1", Glib::ustring("module-rtp-send"));
-            changeSet.set(PA_GCONF_PATH_MODULES"/rtp-send/args1", Glib::ustring(loopbackEnabled ? "source=rtp.monitor loop=1" : "source=rtp.monitor loop=0"));
+
+            Glib::ustring params = "source=rtp.monitor";
+            if (loopbackEnabled) {
+                params += " loop=1";
+            }
+            else {
+                params += " loop=0";
+            }
+            if(fixedPort) {
+                params += " port=5004";
+            }
+            changeSet.set(PA_GCONF_PATH_MODULES"/rtp-send/args1", params);
         } else {
             char tmp[256];
 
@@ -617,6 +633,7 @@ void MainWindow::readFromGConf() {
 
     rtpSendCheckButton->set_active(gconf->get_bool(PA_GCONF_PATH_MODULES"/rtp-send/enabled"));
     rtpLoopbackCheckButton->set_active(gconf->get_bool(PA_GCONF_PATH_MODULES"/rtp-send/loopback_enabled"));
+    rtpPortCheckButton->set_active(gconf->get_bool(PA_GCONF_PATH_MODULES"/rtp-send/fixed_port"));
 
     mode = gconf->get_string(PA_GCONF_PATH_MODULES"/rtp-send/mode");
     if (mode == "microphone")
@@ -637,7 +654,7 @@ void MainWindow::readFromGConf() {
 }
 
 gchar * MainWindow::modulePath(const gchar *name) {
-  gchar *path, *c, **versions;
+  gchar *path, **versions;
 
   versions = g_strsplit(pa_get_library_version(), ".", 3);
   if (versions[0] && versions[1]) {
