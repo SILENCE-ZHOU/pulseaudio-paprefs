@@ -5,6 +5,7 @@ Makefile.in
 README
 aclocal.m4
 *.cache
+compile
 config.guess
 config.h
 config.h.in
