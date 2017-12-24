@@ -24,9 +24,6 @@
 #include <signal.h>
 
 #include <gtkmm.h>
-#include <glibmm.h>
-#include <glibmm/regex.h>
-#include <libglademm.h>
 #include <libintl.h>
 #include <dbus/dbus-glib.h>
 #include <dbus/dbus.h>
@@ -39,7 +36,7 @@
 
 class MainWindow : public Gtk::Window {
 public:
-    MainWindow(BaseObjectType* cobject, const Glib::RefPtr<Gnome::Glade::Xml>& x);
+    MainWindow(BaseObjectType* cobject, const Glib::RefPtr<Gtk::Builder>& x);
     static MainWindow* create();
 
     Gtk::Button
@@ -136,7 +133,7 @@ public:
         upnpAvailable;
 };
 
-MainWindow::MainWindow(BaseObjectType* cobject, const Glib::RefPtr<Gnome::Glade::Xml>& x) :
+MainWindow::MainWindow(BaseObjectType* cobject, const Glib::RefPtr<Gtk::Builder>& x) :
     Gtk::Window(cobject), ignoreChanges(true) {
 
     x->get_widget("closeButton", closeButton);
@@ -232,7 +229,7 @@ MainWindow::MainWindow(BaseObjectType* cobject, const Glib::RefPtr<Gnome::Glade:
 
 MainWindow* MainWindow::create() {
     MainWindow* w;
-    Glib::RefPtr<Gnome::Glade::Xml> x = Gnome::Glade::Xml::create(GLADE_FILE, "mainWindow");
+    Glib::RefPtr<Gtk::Builder> x = Gtk::Builder::create_from_file(GLADE_FILE, "mainWindow");
     x->get_widget_derived("mainWindow", w);
     return w;
 }
