@@ -33,7 +33,6 @@ paprefs_LDADD=$(AM_LDADD) $(GUILIBS_LIBS) $(LIBPULSE_LIBS)
 paprefs_CXXFLAGS=$(AM_CXXFLAGS) $(GUILIBS_CFLAGS) $(LIBPULSE_CFLAGS) $(GSETTINGS_CFLAGS)
 paprefs_CXXFLAGS+=-DGLADE_FILE=\"$(gladedir)/paprefs.glade\" -DLOCALEDIR=\"$(localedir)\" -DMODDIR=\""$(LIBPULSE_MODLIBEXECDIR)"\" -DSHREXT=\"$(SHREXT)\"
 
-gsettings_SCHEMAS = org.freedesktop.paprefs.gschema.xml
 @GSETTINGS_RULES@
 
 convertdir = $(datadir)/GConf/gsettings
