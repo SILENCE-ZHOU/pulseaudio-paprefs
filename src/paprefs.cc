@@ -31,7 +31,8 @@
 
 #include <pulse/version.h>
 
-#define PA_GSETTINGS_PATH_MODULES "/org/freedesktop/pulseaudio/modules"
+#define MODULE_GROUPS_PATH "/org/freedesktop/pulseaudio/module-groups"
+#define MODULE_GROUP_SCHEMA "org.freedesktop.pulseaudio.module-group"
 #define MAX_MODULES 10
 
 class MainWindow : public Gtk::Window {
@@ -165,26 +166,26 @@ MainWindow::MainWindow(BaseObjectType* cobject, const Glib::RefPtr<Gtk::Builder>
     checkForPackageKit();
     checkForModules();
 
-    combineSettings = Gio::Settings::create("org.freedesktop.pulseaudio.module",
-                                            "/org/freedesktop/pulseaudio/modules/combine/");
+    combineSettings = Gio::Settings::create(MODULE_GROUP_SCHEMA,
+                                            MODULE_GROUPS_PATH "/combine/");
 
-    remoteAccessSettings = Gio::Settings::create("org.freedesktop.pulseaudio.module",
-                                                 "/org/freedesktop/pulseaudio/modules/remote-access/");
+    remoteAccessSettings = Gio::Settings::create(MODULE_GROUP_SCHEMA,
+                                                 MODULE_GROUPS_PATH "/remote-access/");
 
-    zeroconfSettings = Gio::Settings::create("org.freedesktop.pulseaudio.module",
-                                             "/org/freedesktop/pulseaudio/modules/zeroconf-discover/");
+    zeroconfSettings = Gio::Settings::create(MODULE_GROUP_SCHEMA,
+                                             MODULE_GROUPS_PATH "/zeroconf-discover/");
 
-    raopSettings = Gio::Settings::create("org.freedesktop.pulseaudio.module",
-                                         "/org/freedesktop/pulseaudio/modules/raop-discover/");
+    raopSettings = Gio::Settings::create(MODULE_GROUP_SCHEMA,
+                                         MODULE_GROUPS_PATH "/raop-discover/");
 
-    rtpRecvSettings = Gio::Settings::create("org.freedesktop.pulseaudio.module",
-                                            "/org/freedesktop/pulseaudio/modules/rtp-recv/");
+    rtpRecvSettings = Gio::Settings::create(MODULE_GROUP_SCHEMA,
+                                            MODULE_GROUPS_PATH "/rtp-recv/");
 
-    rtpSendSettings = Gio::Settings::create("org.freedesktop.pulseaudio.module",
-                                            "/org/freedesktop/pulseaudio/modules/rtp-send/");
+    rtpSendSettings = Gio::Settings::create(MODULE_GROUP_SCHEMA,
+                                            MODULE_GROUPS_PATH "/rtp-send/");
 
-    upnpSettings = Gio::Settings::create("org.freedesktop.pulseaudio.module",
-                                         "/org/freedesktop/pulseaudio/modules/upnp-media-server/");
+    upnpSettings = Gio::Settings::create(MODULE_GROUP_SCHEMA,
+                                         MODULE_GROUPS_PATH "/upnp-media-server/");
 
     combineSettings->signal_changed().connect(sigc::mem_fun(*this, &MainWindow::onGSettingsChange));
     remoteAccessSettings->signal_changed().connect(sigc::mem_fun(*this, &MainWindow::onGSettingsChange));
