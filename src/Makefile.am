@@ -35,10 +35,7 @@ paprefs_CXXFLAGS+=-DGLADE_FILE=\"$(gladedir)/paprefs.glade\" -DLOCALEDIR=\"$(loc
 
 @GSETTINGS_RULES@
 
-convertdir = $(datadir)/GConf/gsettings
-convert_DATA = paprefs.convert
-
-EXTRA_DIST = $(glade_DATA) $(desktop_in_files) paprefs.convert
+EXTRA_DIST = $(glade_DATA) $(desktop_in_files)
 
 CLEANFILES = $(desktop_DATA)
 
