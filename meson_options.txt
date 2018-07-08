@@ -1,0 +1,1 @@
+option('lynx', type: 'boolean', value: false, description: 'enable documentation generation (using lynx)')

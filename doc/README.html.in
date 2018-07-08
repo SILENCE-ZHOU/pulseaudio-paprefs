@@ -95,10 +95,10 @@ module <tt>module-gsettings</tt> must be loaded in the daemon.</p>
 
 <h2><a name="installation">Installation</a></h2>
 
-<p>As this package is made with the GNU autotools you should run
-<tt>./configure</tt> inside the distribution directory for configuring
-the source tree. After that you should run <tt>make</tt> for
-compilation and <tt>make install</tt> (as root) for installation of
+<p>As this package is made with the Meson you should run
+<tt>meson build</tt> inside the distribution directory for configuring
+the source tree. After that you should run <tt>ninja -C build</tt> for
+compilation and <tt>ninja -C build install</tt> (as root) for installation of
 <tt>paprefs</tt>.</p>
 
 <h2><a name="acks">Acknowledgements</a></h2>
