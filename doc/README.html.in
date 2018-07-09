@@ -82,12 +82,8 @@ sound server.</p>
 
 <h2><a name="requirements">Requirements</a></h2>
 
-<p>Currently, <tt>paprefs</tt> is tested on Linux only.</p>
-
-<p><tt>paprefs</tt> was developed and tested on Debian GNU/Linux
-"testing" from August 2006, it should work on most other Linux
-distributions (and maybe Unix versions) since it uses GNU autoconf for
-source code configuration.</p>
+<p>Currently, <tt>paprefs</tt> is tested on Linux only. It should work on most
+Linux distributions.</p>
 
 <p><tt>paprefs</tt> requires <a href="http://gtkmm.sf.net/"><tt>gtkmm</tt></a> and <tt>glademmm</tt> installed.</p>
 
