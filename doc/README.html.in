@@ -37,6 +37,11 @@ General Public License for more details.</p>
 
 <h2><a name="news">News</a></h2>
 
+<div class="news-date">Soon: </div> <p class="news-text"><a
+href="@PACKAGE_URL@paprefs-1.0.tar.xz">Version 1.0</a> released; replace GConf
+with GSettings, port from GTK 2 to GTK 3, change build system from Autotools to
+Meson, add support for fixed RTP port, add Croatian translation</p>
+
 <div class="news-date">Tue Sep 27 2011: </div> <p class="news-text"><a
 href="@PACKAGE_URL@paprefs-0.9.10.tar.xz">Version 0.9.10</a> released; minor tidyups, should no longer require recompiling with each new PA version.</p>
 
