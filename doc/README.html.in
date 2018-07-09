@@ -20,6 +20,8 @@
     <li><a href="#installation">Installation</a></li>
     <li><a href="#acks">Acknowledgements</a></li>
     <li><a href="#download">Download</a></li>
+    <li><a href="#bugs">Bug Reports</a></li>
+    <li><a href="#patches">Contributing Code</a></li>
 </ul>
 
 <h2><a name="license">License</a></h2>
@@ -115,6 +117,13 @@ compilation and <tt>ninja -C build install</tt> (as root) for installation of
 
 <pre>git clone git://anongit.freedesktop.org/pulseaudio/paprefs</pre>
 
+<h2><a name="bugs">Bug Reports</a></h2>
+
+<p>Bugs can be reported on the freedesktop.org bug tracker: <a href="https://bugs.freedesktop.org/enter_bug.cgi?product=PulseAudio">https://bugs.freedesktop.org/enter_bug.cgi?product=PulseAudio</a>. You need to report your bugs against PulseAudio, because there's no separate product on the bug tracker for paprefs.</p>
+
+<h2><a name="patches">Contributing Code</a></h2>
+
+<p>If you have patches for paprefs, send them to the <a href="https://lists.freedesktop.org/mailman/listinfo/pulseaudio-discuss">PulseAudio mailing list</a> (requires subscription). The best (but not mandatory) way to send patches is with the <tt>git send-email</tt> tool. Here are some <a href="https://www.freedesktop.org/wiki/Software/PulseAudio/HowToUseGitSendEmail/">instructions for git send-email</a>.</p>
 <hr/>
 <address class="grey">Lennart Poettering &lt;@PACKAGE_BUGREPORT@&gt;, September 2009</address>
 
