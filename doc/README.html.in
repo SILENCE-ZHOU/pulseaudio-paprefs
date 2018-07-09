@@ -88,7 +88,7 @@ Linux distributions.</p>
 <p><tt>paprefs</tt> requires <a href="http://gtkmm.sf.net/"><tt>gtkmm</tt></a> and <tt>glademmm</tt> installed.</p>
 
 <p>Obviously <tt>paprefs</tt> requires an installation of <a
-href="http://pulseaudio.org/">PulseAudio</a> (version 12.0). The
+href="http://pulseaudio.org/">PulseAudio</a> (version 12.0 or newer). The
 module <tt>module-gsettings</tt> must be loaded in the daemon.</p>
 
 <p>There is an implicit dependency on PackageKit. If you don't install PackageKit the 'Install' buttons in the UI for installing necessary PulseAudio plugins won't work.</p>
