@@ -118,8 +118,6 @@ compilation and <tt>ninja -C build install</tt> (as root) for installation of
 <h2><a name="patches">Contributing Code</a></h2>
 
 <p>If you have patches for paprefs, send them to the <a href="https://lists.freedesktop.org/mailman/listinfo/pulseaudio-discuss">PulseAudio mailing list</a> (requires subscription). The best (but not mandatory) way to send patches is with the <tt>git send-email</tt> tool. Here are some <a href="https://www.freedesktop.org/wiki/Software/PulseAudio/HowToUseGitSendEmail/">instructions for git send-email</a>.</p>
-<hr/>
-<address class="grey">Lennart Poettering &lt;@PACKAGE_BUGREPORT@&gt;, September 2009</address>
 
 </body>
 </html>
