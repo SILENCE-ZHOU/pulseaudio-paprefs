@@ -6,7 +6,7 @@ paprefs_dependencies = [
   giomm,
   gtkmm,
   sigc,
-  dbus_glib,
+  libdbus,
   libpulse,
 ]
 

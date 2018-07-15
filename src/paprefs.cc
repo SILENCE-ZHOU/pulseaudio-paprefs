@@ -25,8 +25,9 @@
 
 #include <gtkmm.h>
 #include <libintl.h>
-#include <dbus/dbus-glib.h>
 #include <dbus/dbus.h>
+#include <giomm/dbusconnection.h>
+#include <giomm/dbusproxy.h>
 #include <gdk/gdkx.h>
 
 #include <pulse/version.h>
@@ -339,36 +340,28 @@ void MainWindow::showInstallButton(Gtk::Button *button, bool available) {
 }
 
 void MainWindow::installFiles(const char *a, const char *b = NULL) {
-    DBusGConnection *connection;
-    DBusGProxy *proxy;
-    gboolean ret;
-    GError *error = NULL;
-    const gchar *packages[] = {a, b, NULL};
+    Glib::RefPtr<Gio::DBus::Proxy> proxy;
+    const std::vector<Glib::ustring> packages = {a, b};
 
-    connection = dbus_g_bus_get(DBUS_BUS_SESSION, NULL);
+    proxy = Gio::DBus::Proxy::create_for_bus_sync(Gio::DBus::BusType::BUS_TYPE_SESSION,
+                                                      "org.freedesktop.PackageKit",
+                                                      "/org/freedesktop/PackageKit",
+                                                      "org.freedesktop.PackageKit.Modify");
 
-    proxy = dbus_g_proxy_new_for_name(connection,
-                                      "org.freedesktop.PackageKit",
-                                      "/org/freedesktop/PackageKit",
-                                      "org.freedesktop.PackageKit.Modify");
+    Glib::VariantContainerBase params = Glib::VariantContainerBase::create_tuple(std::vector<Glib::VariantBase>({
+        Glib::Variant<guint>::create(GDK_WINDOW_XID(get_window()->gobj())),
+        Glib::Variant<std::vector<Glib::ustring>>::create(packages),
+        Glib::Variant<Glib::ustring>::create("show-confirm-search,hide-finished")
+    }));
 
-    ret = dbus_g_proxy_call(
-            proxy, "InstallProvideFiles", &error,
-            G_TYPE_UINT, GDK_WINDOW_XID(get_window()->gobj()),
-            G_TYPE_STRV, packages,
-            G_TYPE_STRING, "show-confirm-search,hide-finished",
-            G_TYPE_INVALID, G_TYPE_INVALID);
+    try {
+        proxy->call_sync("InstallProvideFiles", params);
 
-    if (!ret) {
-        g_warning("Installation failed: %s", error->message);
-        g_error_free(error);
+        checkForModules();
+        updateSensitive();
+    } catch (const Glib::Error& err) {
+        g_warning("Installation failed: %s", err.what().c_str());
     }
-
-    g_object_unref(proxy);
-    dbus_g_connection_unref(connection);
-
-    checkForModules();
-    updateSensitive();
 }
 
 void MainWindow::installModules(const char *a, const char *b = NULL) {
