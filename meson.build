@@ -14,7 +14,6 @@ i18n = import('i18n')
 gtkmm = dependency('gtkmm-3.0')
 giomm = dependency('giomm-2.4', version: '>= 2.26')
 sigc = dependency('sigc++-2.0')
-libdbus = dependency('dbus-1')
 libpulse = dependency('libpulse')
 
 lynx = find_program('lynx', required: with_lynx)

@@ -25,7 +25,6 @@
 
 #include <gtkmm.h>
 #include <libintl.h>
-#include <dbus/dbus.h>
 #include <giomm/dbusconnection.h>
 #include <giomm/dbusproxy.h>
 #include <gdk/gdkx.h>
@@ -120,6 +119,9 @@ public:
     void showInstallButton(Gtk::Button *button, bool available);
     void installFiles(const char *a, const char *b);
     void installModules(const char *a, const char *b);
+
+    void onPackageKitAppeared(const Glib::RefPtr<Gio::DBus::Connection>& connection, const Glib::ustring& name, const Glib::ustring& name_owner);
+    void onPackageKitVanished(const Glib::RefPtr<Gio::DBus::Connection>& connection, const Glib::ustring& name);
 
     bool moduleExists(const gchar *name);
     gchar *modulePath(const gchar *name);
@@ -721,19 +723,20 @@ void MainWindow::checkForModules() {
 }
 
 void MainWindow::checkForPackageKit() {
+    Gio::DBus::watch_name(Gio::DBus::BusType::BUS_TYPE_SESSION,
+                          "org.freedesktop.PackageKit",
+                          sigc::mem_fun(*this, &MainWindow::onPackageKitAppeared),
+                          sigc::mem_fun(*this, &MainWindow::onPackageKitVanished));
+}
 
-    DBusError err;
-    dbus_error_init(&err);
-    DBusConnection *sessionBus = dbus_bus_get(DBUS_BUS_SESSION, &err);
+void MainWindow::onPackageKitAppeared(const Glib::RefPtr<Gio::DBus::Connection>& connection,const Glib::ustring& name,const Glib::ustring& name_owner) {
+    packageKitAvailable = TRUE;
+    updateSensitive();
+}
 
-    if(dbus_error_is_set(&err)) {
-        g_warning("Error connecting to DBus: %s", err.message);
-        packageKitAvailable = FALSE;
-    } else {
-        packageKitAvailable = dbus_bus_name_has_owner(sessionBus, "org.freedesktop.PackageKit", NULL);
-        dbus_connection_unref(sessionBus);
-    }
-    dbus_error_free(&err);
+void MainWindow::onPackageKitVanished(const Glib::RefPtr<Gio::DBus::Connection>& connection,const Glib::ustring& name) {
+    packageKitAvailable = FALSE;
+    updateSensitive();
 }
 
 
