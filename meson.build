@@ -1,6 +1,6 @@
 project('paprefs', 'cpp',
   license: 'GPL2+',
-  version: '0.9.10',
+  version: '1.0',
   meson_version: '>=0.40.1'
 )
 
