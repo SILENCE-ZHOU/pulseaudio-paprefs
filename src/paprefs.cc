@@ -415,7 +415,7 @@ void MainWindow::writeToGSettingsCombine() {
     combineSettings->delay();
 
     if (combineCheckButton->get_active()) {
-        combineSettings->set_string("name0", Glib::ustring("module-combine"));
+        combineSettings->set_string("name0", Glib::ustring("module-combine-sink"));
         combineSettings->set_string("args0", Glib::ustring(""));
 
         combineSettings->set_boolean("enabled", true);
