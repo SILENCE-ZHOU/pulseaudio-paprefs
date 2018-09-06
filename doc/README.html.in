@@ -107,17 +107,19 @@ compilation and <tt>ninja -C build install</tt> (as root) for installation of
 
 <p>The current release is <a href="@PACKAGE_URL@paprefs-@PACKAGE_VERSION@.tar.gz">@PACKAGE_VERSION@</a></p>
 
-<p>Get <tt>paprefs</tt>'s development sources from the <a href="http://git-scm.org/">GIT</a> <a href="git://anongit.freedesktop.org/pulseaudio/paprefs">repository</a> (<a href="http://cgit.freedesktop.org/pulseaudio/paprefs">web interface</a>): </p>
+<p>Get <tt>paprefs</tt>'s development sources from the <a href="http://git-scm.com/">Git</a> <a href="https://gitlab.freedesktop.org/pulseaudio/paprefs.git">repository</a> (<a href="https://gitlab.freedesktop.org/pulseaudio/paprefs">web interface</a>): </p>
 
-<pre>git clone git://anongit.freedesktop.org/pulseaudio/paprefs</pre>
+<pre>git clone https://gitlab.freedesktop.org/pulseaudio/paprefs.git</pre>
 
 <h2><a name="bugs">Bug Reports</a></h2>
 
-<p>Bugs can be reported on the freedesktop.org bug tracker: <a href="https://bugs.freedesktop.org/enter_bug.cgi?product=PulseAudio">https://bugs.freedesktop.org/enter_bug.cgi?product=PulseAudio</a>. You need to report your bugs against PulseAudio, because there's no separate product on the bug tracker for paprefs.</p>
+<p>Here's the list of open bug reports: <a href="https://gitlab.freedesktop.org/pulseaudio/paprefs/issues">https://gitlab.freedesktop.org/pulseaudio/paprefs/issues</a></p>
+
+<p>And here you can create a new bug report: <a href="https://gitlab.freedesktop.org/pulseaudio/paprefs/issues/new">https://gitlab.freedesktop.org/pulseaudio/paprefs/issues/new</a></p>
 
 <h2><a name="patches">Contributing Code</a></h2>
 
-<p>If you have patches for paprefs, send them to the <a href="https://lists.freedesktop.org/mailman/listinfo/pulseaudio-discuss">PulseAudio mailing list</a> (requires subscription). The best (but not mandatory) way to send patches is with the <tt>git send-email</tt> tool. Here are some <a href="https://www.freedesktop.org/wiki/Software/PulseAudio/HowToUseGitSendEmail/">instructions for git send-email</a>.</p>
+<p>If you have patches for paprefs, the primary method for submitting them is by creating a merge request in <a href="https://gitlab.freedesktop.org/pulseaudio/paprefs">GitLab</a>. Alternatively, you can send patches to the <a href="https://lists.freedesktop.org/mailman/listinfo/pulseaudio-discuss">PulseAudio mailing list</a> (requires subscription).</p>
 
 </body>
 </html>
