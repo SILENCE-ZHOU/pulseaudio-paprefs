@@ -37,7 +37,7 @@ General Public License for more details.</p>
 
 <h2><a name="news">News</a></h2>
 
-<div class="news-date">Soon: </div> <p class="news-text"><a
+<div class="news-date">Fri Jan 25 2019: </div> <p class="news-text"><a
 href="@PACKAGE_URL@paprefs-1.1.tar.xz">Version 1.1</a> released; replace
 dbus-glib and libdbus with gdbus, use module-combine-sink instead of
 module-combine</p>
