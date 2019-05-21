@@ -1,0 +1,134 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+#
+# Translators:
+# Moo, 2019
+msgid ""
+msgstr ""
+"Project-Id-Version: PulseAudio Preferences\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-04-24 17:33+0200\n"
+"PO-Revision-Date: 2019-04-13 22:58+0300\n"
+"Last-Translator: Moo\n"
+"Language-Team: \n"
+"Language: lt\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && (n%100<11 || n%100>19) ? 0 : n"
+"%10>=2 && n%10<=9 && (n%100<11 || n%100>19) ? 1 : 2);\n"
+"X-Generator: Poedit 2.2.1\n"
+
+#: ../src/paprefs.desktop.in.h:1 ../src/paprefs.glade.h:1
+msgid "PulseAudio Preferences"
+msgstr "PulseAudio nuostatos"
+
+#: ../src/paprefs.desktop.in.h:2
+msgid "Sound Server Preferences"
+msgstr "Garso serverio nuostatos"
+
+#: ../src/paprefs.desktop.in.h:3
+msgid "View and modify the configuration of the local sound server"
+msgstr "Rodyti ir modifikuoti vietinio garso serverio konfigūraciją"
+
+#: ../src/paprefs.glade.h:2
+msgid "Make discoverable _PulseAudio network sound devices available locally"
+msgstr ""
+"Paversti atrandamus _PulseAudio tinklo garso įrenginius prieinamais "
+"vietiniu mastu"
+
+#: ../src/paprefs.glade.h:3
+msgid "Install..."
+msgstr "Įdiegti..."
+
+#: ../src/paprefs.glade.h:4
+msgid "Make discoverable Apple A_irTunes sound devices available locally"
+msgstr ""
+"Paversti atrandamus Apple A_irTunes garso įrenginius prieinamais vietiniu "
+"mastu"
+
+#: ../src/paprefs.glade.h:5
+msgid ""
+"<i>Apple and AirTunes are trademarks of Apple Inc., registered in the U.S. "
+"and other countries.</i>"
+msgstr ""
+"<i>Apple ir AirTunes yra Apple Inc. prekių ženklai, registruoti JAV bei "
+"kitose šalyse.</i>"
+
+#: ../src/paprefs.glade.h:6
+msgid "Network _Access"
+msgstr "Tinklo prieig_a"
+
+#: ../src/paprefs.glade.h:7
+msgid "Enable _network access to local sound devices"
+msgstr "Leisti ti_nklo prieigą prie vietinių garso įrenginių"
+
+#: ../src/paprefs.glade.h:8
+msgid "Allow other machines on the LAN to _discover local sound devices"
+msgstr ""
+"Leisti kitiems vietiniame tinkle esantiems kompiuteriams a_trasti vietinius "
+"garso įrenginius"
+
+#: ../src/paprefs.glade.h:9
+msgid "Don't _require authentication"
+msgstr "Ne_reikalauti tapatybės nustatymo"
+
+#: ../src/paprefs.glade.h:10
+msgid "Make local sound devices available as DLNA/_UPnP Media Server"
+msgstr ""
+"Paversti vietinius garso įrenginius prieinamus kaip DLNA/_UPnP medijos "
+"serverį"
+
+#: ../src/paprefs.glade.h:11
+msgid "Create separate audio device for DLNA/UPnP media streaming"
+msgstr ""
+"Sukurti atskirą garso įrenginį, skirtą DLNA/UPnP medijos transliavimui"
+
+#: ../src/paprefs.glade.h:12
+msgid "Network _Server"
+msgstr "Tinklo _serveris"
+
+#: ../src/paprefs.glade.h:13
+msgid "Enable Multicast/RTP re_ceiver"
+msgstr "Įjungti daugiaabonenčio transliavimo/RTP imt_uvą"
+
+#: ../src/paprefs.glade.h:14
+msgid "Enable Multicast/RTP s_ender"
+msgstr "Įjungti daugiaabonenčio transliavimo/RTP sių_stuvą"
+
+#: ../src/paprefs.glade.h:15
+msgid "Send audio from local _microphone"
+msgstr "Siųsti garsą iš vietinio _mikrofono"
+
+#: ../src/paprefs.glade.h:16
+msgid "Send audio from local spea_kers"
+msgstr "Siųsti garsą iš vietinių garsia_kalbių"
+
+#: ../src/paprefs.glade.h:17
+msgid "Create separate audio device _for Multicast/RTP"
+msgstr ""
+"Sukurti atskirą garso įrenginį, sk_irtą daugiaabonenčiam transliavimui/RTP"
+
+#: ../src/paprefs.glade.h:18
+msgid "_Loop back audio to local speakers"
+msgstr "_Cikliškai išvesti garsą į vietinius garsiakalbius"
+
+#: ../src/paprefs.glade.h:19
+msgid "Send on fixed _port 5004"
+msgstr "Siųsti fiksuotu _prievadu 5004"
+
+#: ../src/paprefs.glade.h:20
+msgid "Multicast/R_TP"
+msgstr "Daugiaabonentis transliavimas/R_TP"
+
+#: ../src/paprefs.glade.h:21
+msgid ""
+"Add _virtual output device for simultaneous output on all local sound cards"
+msgstr ""
+"Pridėti _virtualų išvesties įrenginį, skirtą vienalaikei išvesčiai visose "
+"vietinėse garso plokštėse"
+
+#: ../src/paprefs.glade.h:22
+msgid "Simultaneous _Output"
+msgstr "Vienalaikė _išvestis"
