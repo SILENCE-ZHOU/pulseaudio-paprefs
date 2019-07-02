@@ -124,7 +124,7 @@ compilation and <tt>ninja -C build install</tt> (as root) for installation of
 
 <h2><a name="patches">Contributing Code</a></h2>
 
-<p>If you have patches for paprefs, the primary method for submitting them is by creating a merge request in <a href="https://gitlab.freedesktop.org/pulseaudio/paprefs">GitLab</a>. Alternatively, you can send patches to the <a href="https://lists.freedesktop.org/mailman/listinfo/pulseaudio-discuss">PulseAudio mailing list</a> (requires subscription).</p>
+<p>If you have patches for paprefs, the primary method for submitting them is by creating a merge request in <a href="https://gitlab.freedesktop.org/pulseaudio/paprefs">GitLab</a>.</p>
 
 </body>
 </html>
