@@ -343,7 +343,10 @@ void MainWindow::showInstallButton(Gtk::Button *button, bool available) {
 
 void MainWindow::installFiles(const char *a, const char *b = NULL) {
     Glib::RefPtr<Gio::DBus::Proxy> proxy;
-    const std::vector<Glib::ustring> packages = {a, b};
+    std::vector<Glib::ustring> packages = {a};
+
+    if (b)
+        packages.push_back(Glib::ustring(b));
 
     proxy = Gio::DBus::Proxy::create_for_bus_sync(Gio::DBus::BusType::BUS_TYPE_SESSION,
                                                       "org.freedesktop.PackageKit",
