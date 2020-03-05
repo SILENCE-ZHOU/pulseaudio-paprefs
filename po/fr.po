@@ -6,13 +6,14 @@
 # Robert-André Mauchin <zebob.m@pengzone.org>, 2008.
 # Charles-Antoine Couret <cacouret@wanadoo.fr>, 2009.
 # Jean-Baptiste Holcroft <jean-baptiste@holcroft.fr>, 2020.
+# Julien Humbert <julroy67@gmail.com>, 2020.
 msgid ""
 msgstr ""
 "Project-Id-Version: paprefs trunk\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2009-09-10 03:48+0200\n"
-"PO-Revision-Date: 2020-02-17 12:32+0000\n"
-"Last-Translator: Jean-Baptiste Holcroft <jean-baptiste@holcroft.fr>\n"
+"PO-Revision-Date: 2020-02-18 14:38+0000\n"
+"Last-Translator: Julien Humbert <julroy67@gmail.com>\n"
 "Language-Team: French <https://translate.fedoraproject.org/projects/"
 "pulseaudio/paprefs/fr/>\n"
 "Language: fr\n"
@@ -40,7 +41,7 @@ msgid ""
 "and other countries.</i>"
 msgstr ""
 "<i>Apple et Airtunes sont des marques déposées de Apple Inc., enregistrées "
-"aux États-Uniset d'autres pays.</i>"
+"aux États-Unis et d’autres pays.</i>"
 
 #: ../src/paprefs.glade.h:2
 msgid ""
@@ -65,7 +66,7 @@ msgstr "Créer un périphérique de son séparé pour le steam de média DLNA/UP
 
 #: ../src/paprefs.glade.h:6
 msgid "Don't _require authentication"
-msgstr "Ne pas demande_r d'authentification"
+msgstr "Ne pas demande_r d’authentification"
 
 #: ../src/paprefs.glade.h:7
 msgid "Enable Multicast/RTP re_ceiver"
@@ -73,11 +74,11 @@ msgstr "Activer le ré_cepteur Multicast/RTP"
 
 #: ../src/paprefs.glade.h:8
 msgid "Enable Multicast/RTP s_ender"
-msgstr "Activer l'ém_etteur Multicast/RTP"
+msgstr "Activer l’ém_etteur Multicast/RTP"
 
 #: ../src/paprefs.glade.h:9
 msgid "Enable _network access to local sound devices"
-msgstr "Activer l'accès _réseau aux périphériques de son locaux"
+msgstr "Activer l’accès _réseau aux périphériques de son locaux"
 
 #: ../src/paprefs.glade.h:10
 msgid "Install..."
@@ -86,7 +87,7 @@ msgstr "Installation…"
 #: ../src/paprefs.glade.h:11
 msgid "Make discoverable Apple A_irTunes sound devices available locally"
 msgstr ""
-"Rendre visible les périphériques audio A_irtunes d'Apple disponibles "
+"Rendre visible les périphériques audio A_irtunes d’Apple disponibles "
 "localement"
 
 #: ../src/paprefs.glade.h:12
