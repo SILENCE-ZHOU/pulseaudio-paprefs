@@ -1,8 +1,8 @@
 # French translation of paprefs.
 # Copyright (C) 2006-2008 Lennart Poettering
 # This file is distributed under the same license as the pavucontrol package.
-# 
-# 
+#
+#
 # Robert-André Mauchin <zebob.m@pengzone.org>, 2008.
 # Charles-Antoine Couret <cacouret@wanadoo.fr>, 2009.
 # Jean-Baptiste Holcroft <jean-baptiste@holcroft.fr>, 2020.
@@ -10,8 +10,9 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: paprefs trunk\n"
-"Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2009-09-10 03:48+0200\n"
+"Report-Msgid-Bugs-To: https://gitlab.freedesktop.org/pulseaudio/paprefs/"
+"issues/new\n"
+"POT-Creation-Date: 2020-02-13 09:37+0200\n"
 "PO-Revision-Date: 2020-02-18 14:38+0000\n"
 "Last-Translator: Julien Humbert <julroy67@gmail.com>\n"
 "Language-Team: French <https://translate.fedoraproject.org/projects/"
@@ -23,19 +24,40 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
 "X-Generator: Weblate 3.10.3\n"
 
-#: ../src/paprefs.desktop.in.h:1 ../src/paprefs.glade.h:17
+#: src/paprefs.desktop.in:5 src/paprefs.glade:7
 msgid "PulseAudio Preferences"
 msgstr "Préférences de PulseAudio"
 
-#: ../src/paprefs.desktop.in.h:2
+#: src/paprefs.desktop.in:6
 msgid "Sound Server Preferences"
 msgstr "Préférences du serveur de son"
 
-#: ../src/paprefs.desktop.in.h:3
+#: src/paprefs.desktop.in:7
 msgid "View and modify the configuration of the local sound server"
 msgstr "Afficher et modifier la configuration du serveur de son local"
 
-#: ../src/paprefs.glade.h:1
+#: src/paprefs.desktop.in:9
+msgid "preferences-desktop"
+msgstr ""
+
+#: src/paprefs.glade:33
+msgid "Make discoverable _PulseAudio network sound devices available locally"
+msgstr ""
+"Rendre visible les périphériques audio _PulseAudio disponibles localement"
+
+#: src/paprefs.glade:49 src/paprefs.glade:91 src/paprefs.glade:168
+#: src/paprefs.glade:219 src/paprefs.glade:285 src/paprefs.glade:381
+#: src/paprefs.glade:422
+msgid "Install..."
+msgstr "Installation…"
+
+#: src/paprefs.glade:75
+msgid "Make discoverable Apple A_irTunes sound devices available locally"
+msgstr ""
+"Rendre visible les périphériques audio A_irtunes d’Apple disponibles "
+"localement"
+
+#: src/paprefs.glade:116
 msgid ""
 "<i>Apple and AirTunes are trademarks of Apple Inc., registered in the U.S. "
 "and other countries.</i>"
@@ -43,91 +65,80 @@ msgstr ""
 "<i>Apple et Airtunes sont des marques déposées de Apple Inc., enregistrées "
 "aux États-Unis et d’autres pays.</i>"
 
-#: ../src/paprefs.glade.h:2
+#: src/paprefs.glade:134
+msgid "Network _Access"
+msgstr "_Accès réseau"
+
+#: src/paprefs.glade:153
+msgid "Enable _network access to local sound devices"
+msgstr "Activer l’accès _réseau aux périphériques de son locaux"
+
+#: src/paprefs.glade:204
+msgid "Allow other machines on the LAN to _discover local sound devices"
+msgstr ""
+"Permettre aux autres machines sur le réseau local de _découvrir les "
+"périphériques de son locaux"
+
+#: src/paprefs.glade:241
+msgid "Don't _require authentication"
+msgstr "Ne pas demande_r d’authentification"
+
+#: src/paprefs.glade:269
+msgid "Make local sound devices available as DLNA/_UPnP Media Server"
+msgstr ""
+"Rendre les périphériques disponibles localement en tant que serveur de "
+"médias DLNA/_UPnP"
+
+#: src/paprefs.glade:316
+msgid "Create separate audio device for DLNA/UPnP media streaming"
+msgstr "Créer un périphérique de son séparé pour le steam de média DLNA/UPnP"
+
+#: src/paprefs.glade:346
+msgid "Network _Server"
+msgstr "_Serveur réseau"
+
+#: src/paprefs.glade:366
+msgid "Enable Multicast/RTP re_ceiver"
+msgstr "Activer le ré_cepteur Multicast/RTP"
+
+#: src/paprefs.glade:407
+msgid "Enable Multicast/RTP s_ender"
+msgstr "Activer l’ém_etteur Multicast/RTP"
+
+#: src/paprefs.glade:454
+msgid "Send audio from local _microphone"
+msgstr "Envoyer du son à partir du _microphone local"
+
+#: src/paprefs.glade:470
+msgid "Send audio from local spea_kers"
+msgstr "Envoyer du son à partir des _haut-parleurs locaux"
+
+#: src/paprefs.glade:486
+msgid "Create separate audio device _for Multicast/RTP"
+msgstr "Créer un _périphérique de son séparé pour le Multicast/RTP"
+
+#: src/paprefs.glade:502
+msgid "_Loop back audio to local speakers"
+msgstr "Bouc_lage du son vers les haut-parleurs locaux"
+
+#: src/paprefs.glade:517
+msgid "Send on fixed _port 5004"
+msgstr ""
+
+#: src/paprefs.glade:546
+msgid "Multicast/R_TP"
+msgstr "Multicast/R_TP"
+
+#: src/paprefs.glade:562
 msgid ""
 "Add _virtual output device for simultaneous output on all local sound cards"
 msgstr ""
 "Ajouter un périphérique de sortie _virtuel pour une sortie simultanée sur "
 "toutes les cartes sons locales"
 
-#: ../src/paprefs.glade.h:3
-msgid "Allow other machines on the LAN to _discover local sound devices"
-msgstr ""
-"Permettre aux autres machines sur le réseau local de _découvrir les "
-"périphériques de son locaux"
-
-#: ../src/paprefs.glade.h:4
-msgid "Create separate audio device _for Multicast/RTP"
-msgstr "Créer un _périphérique de son séparé pour le Multicast/RTP"
-
-#: ../src/paprefs.glade.h:5
-msgid "Create separate audio device for DLNA/UPnP media streaming"
-msgstr "Créer un périphérique de son séparé pour le steam de média DLNA/UPnP"
-
-#: ../src/paprefs.glade.h:6
-msgid "Don't _require authentication"
-msgstr "Ne pas demande_r d’authentification"
-
-#: ../src/paprefs.glade.h:7
-msgid "Enable Multicast/RTP re_ceiver"
-msgstr "Activer le ré_cepteur Multicast/RTP"
-
-#: ../src/paprefs.glade.h:8
-msgid "Enable Multicast/RTP s_ender"
-msgstr "Activer l’ém_etteur Multicast/RTP"
-
-#: ../src/paprefs.glade.h:9
-msgid "Enable _network access to local sound devices"
-msgstr "Activer l’accès _réseau aux périphériques de son locaux"
-
-#: ../src/paprefs.glade.h:10
-msgid "Install..."
-msgstr "Installation…"
-
-#: ../src/paprefs.glade.h:11
-msgid "Make discoverable Apple A_irTunes sound devices available locally"
-msgstr ""
-"Rendre visible les périphériques audio A_irtunes d’Apple disponibles "
-"localement"
-
-#: ../src/paprefs.glade.h:12
-msgid "Make discoverable _PulseAudio network sound devices available locally"
-msgstr ""
-"Rendre visible les périphériques audio _PulseAudio disponibles localement"
-
-#: ../src/paprefs.glade.h:13
-msgid "Make local sound devices available as DLNA/_UPnP Media Server"
-msgstr ""
-"Rendre les périphériques disponibles localement en tant que serveur de "
-"médias DLNA/_UPnP"
-
-#: ../src/paprefs.glade.h:14
-msgid "Multicast/R_TP"
-msgstr "Multicast/R_TP"
-
-#: ../src/paprefs.glade.h:15
-msgid "Network _Access"
-msgstr "_Accès réseau"
-
-#: ../src/paprefs.glade.h:16
-msgid "Network _Server"
-msgstr "_Serveur réseau"
-
-#: ../src/paprefs.glade.h:18
-msgid "Send audio from local _microphone"
-msgstr "Envoyer du son à partir du _microphone local"
-
-#: ../src/paprefs.glade.h:19
-msgid "Send audio from local spea_kers"
-msgstr "Envoyer du son à partir des _haut-parleurs locaux"
-
-#: ../src/paprefs.glade.h:20
+#: src/paprefs.glade:581
 msgid "Simultaneous _Output"
 msgstr "S_ortie simultanée"
-
-#: ../src/paprefs.glade.h:21
-msgid "_Loop back audio to local speakers"
-msgstr "Bouc_lage du son vers les haut-parleurs locaux"
 
 #~ msgid ""
 #~ "<span color=\"black\">View and modify the configuration of your local "

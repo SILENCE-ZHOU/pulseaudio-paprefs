@@ -6,8 +6,9 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: paprefs\n"
-"Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-04-27 16:42+0200\n"
+"Report-Msgid-Bugs-To: https://gitlab.freedesktop.org/pulseaudio/paprefs/"
+"issues/new\n"
+"POT-Creation-Date: 2020-02-13 09:37+0200\n"
 "PO-Revision-Date: 2018-04-27 16:44+0200\n"
 "Last-Translator: Piotr Drąg <piotrdrag@gmail.com>\n"
 "Language-Team: Polish <trans-pl@lists.fedoraproject.org>\n"
@@ -18,32 +19,38 @@ msgstr ""
 "Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 "
 "|| n%100>=20) ? 1 : 2);\n"
 
-#: ../src/paprefs.desktop.in.h:1 ../src/paprefs.glade.h:1
+#: src/paprefs.desktop.in:5 src/paprefs.glade:7
 msgid "PulseAudio Preferences"
 msgstr "Preferencje PulseAudio"
 
-#: ../src/paprefs.desktop.in.h:2
+#: src/paprefs.desktop.in:6
 msgid "Sound Server Preferences"
 msgstr "Preferencje serwera dźwięku"
 
-#: ../src/paprefs.desktop.in.h:3
+#: src/paprefs.desktop.in:7
 msgid "View and modify the configuration of the local sound server"
 msgstr "Wyświetlanie i modyfikacja konfiguracji lokalnego serwera dźwięku"
 
-#: ../src/paprefs.glade.h:2
+#: src/paprefs.desktop.in:9
+msgid "preferences-desktop"
+msgstr ""
+
+#: src/paprefs.glade:33
 msgid "Make discoverable _PulseAudio network sound devices available locally"
 msgstr ""
 "Lokalne udostępnienie wykrytych sieciowych urządzeń dźwiękowych _PulseAudio"
 
-#: ../src/paprefs.glade.h:3
+#: src/paprefs.glade:49 src/paprefs.glade:91 src/paprefs.glade:168
+#: src/paprefs.glade:219 src/paprefs.glade:285 src/paprefs.glade:381
+#: src/paprefs.glade:422
 msgid "Install..."
 msgstr "Zainstaluj…"
 
-#: ../src/paprefs.glade.h:4
+#: src/paprefs.glade:75
 msgid "Make discoverable Apple A_irTunes sound devices available locally"
 msgstr "Lokalne udostępnienie wykrytych urządzeń dźwiękowych Apple Air_Tunes"
 
-#: ../src/paprefs.glade.h:5
+#: src/paprefs.glade:116
 msgid ""
 "<i>Apple and AirTunes are trademarks of Apple Inc., registered in the U.S. "
 "and other countries.</i>"
@@ -51,74 +58,74 @@ msgstr ""
 "<i>Apple i AirTunes są znakami towarowymi firmy Apple Inc., zarejestrowanymi "
 "w Stanach Zjednoczonych i innych państwach.</i>"
 
-#: ../src/paprefs.glade.h:6
+#: src/paprefs.glade:134
 msgid "Network _Access"
 msgstr "Dostęp si_eciowy"
 
-#: ../src/paprefs.glade.h:7
+#: src/paprefs.glade:153
 msgid "Enable _network access to local sound devices"
 msgstr "Dostęp sieciowy do lokal_nych urządzeń dźwiękowych"
 
-#: ../src/paprefs.glade.h:8
+#: src/paprefs.glade:204
 msgid "Allow other machines on the LAN to _discover local sound devices"
 msgstr "_Inne komputery w sieci LAN mogą wykrywać lokalne urządzenia dźwiękowe"
 
-#: ../src/paprefs.glade.h:9
+#: src/paprefs.glade:241
 msgid "Don't _require authentication"
 msgstr "Bez wymogu uwie_rzytelnienia"
 
-#: ../src/paprefs.glade.h:10
+#: src/paprefs.glade:269
 msgid "Make local sound devices available as DLNA/_UPnP Media Server"
 msgstr ""
 "_Udostępnianie lokalnych urządzeń dźwiękowych jako serwer mediów DLNA/UPnP"
 
-#: ../src/paprefs.glade.h:11
+#: src/paprefs.glade:316
 msgid "Create separate audio device for DLNA/UPnP media streaming"
 msgstr "Oddzielne urządzenie dźwiękowe dla mediów strumieniowych DLNA/UPnP"
 
-#: ../src/paprefs.glade.h:12
+#: src/paprefs.glade:346
 msgid "Network _Server"
 msgstr "_Serwer sieciowy"
 
-#: ../src/paprefs.glade.h:13
+#: src/paprefs.glade:366
 msgid "Enable Multicast/RTP re_ceiver"
 msgstr "Odbior_ca multikastu/RTP"
 
-#: ../src/paprefs.glade.h:14
+#: src/paprefs.glade:407
 msgid "Enable Multicast/RTP s_ender"
 msgstr "N_adawca multikastu/RTP"
 
-#: ../src/paprefs.glade.h:15
+#: src/paprefs.glade:454
 msgid "Send audio from local _microphone"
 msgstr "Wysyłanie dźwięku z lokalnego _mikrofonu"
 
-#: ../src/paprefs.glade.h:16
+#: src/paprefs.glade:470
 msgid "Send audio from local spea_kers"
 msgstr "Wysyłanie dźwięku z lokalnych głośni_ków"
 
-#: ../src/paprefs.glade.h:17
+#: src/paprefs.glade:486
 msgid "Create separate audio device _for Multicast/RTP"
 msgstr "O_ddzielne urządzenie dźwiękowe dla multikastu/RTP"
 
-#: ../src/paprefs.glade.h:18
+#: src/paprefs.glade:502
 msgid "_Loop back audio to local speakers"
 msgstr "_Zwracanie dźwięku do lokalnych głośników"
 
-#: ../src/paprefs.glade.h:19
+#: src/paprefs.glade:517
 msgid "Send on fixed _port 5004"
 msgstr "_Wysyłanie na stałym porcie 5004"
 
-#: ../src/paprefs.glade.h:20
+#: src/paprefs.glade:546
 msgid "Multicast/R_TP"
 msgstr "Multikast/R_TP"
 
-#: ../src/paprefs.glade.h:21
+#: src/paprefs.glade:562
 msgid ""
 "Add _virtual output device for simultaneous output on all local sound cards"
 msgstr ""
 "_Wirtualne urządzenie wyjściowe dla jednoczesnego wyjścia na wszystkich "
 "lokalnych kartach dźwiękowych"
 
-#: ../src/paprefs.glade.h:22
+#: src/paprefs.glade:581
 msgid "Simultaneous _Output"
 msgstr "Jedn_oczesne wyjście"

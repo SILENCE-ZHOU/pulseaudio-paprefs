@@ -7,8 +7,9 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PulseAudio Preferences\n"
-"Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-04-24 17:33+0200\n"
+"Report-Msgid-Bugs-To: https://gitlab.freedesktop.org/pulseaudio/paprefs/"
+"issues/new\n"
+"POT-Creation-Date: 2020-02-13 09:37+0200\n"
 "PO-Revision-Date: 2019-04-13 22:58+0300\n"
 "Last-Translator: Moo\n"
 "Language-Team: \n"
@@ -20,35 +21,41 @@ msgstr ""
 "%10>=2 && n%10<=9 && (n%100<11 || n%100>19) ? 1 : 2);\n"
 "X-Generator: Poedit 2.2.1\n"
 
-#: ../src/paprefs.desktop.in.h:1 ../src/paprefs.glade.h:1
+#: src/paprefs.desktop.in:5 src/paprefs.glade:7
 msgid "PulseAudio Preferences"
 msgstr "PulseAudio nuostatos"
 
-#: ../src/paprefs.desktop.in.h:2
+#: src/paprefs.desktop.in:6
 msgid "Sound Server Preferences"
 msgstr "Garso serverio nuostatos"
 
-#: ../src/paprefs.desktop.in.h:3
+#: src/paprefs.desktop.in:7
 msgid "View and modify the configuration of the local sound server"
 msgstr "Rodyti ir modifikuoti vietinio garso serverio konfigūraciją"
 
-#: ../src/paprefs.glade.h:2
+#: src/paprefs.desktop.in:9
+msgid "preferences-desktop"
+msgstr ""
+
+#: src/paprefs.glade:33
 msgid "Make discoverable _PulseAudio network sound devices available locally"
 msgstr ""
-"Paversti atrandamus _PulseAudio tinklo garso įrenginius prieinamais "
-"vietiniu mastu"
+"Paversti atrandamus _PulseAudio tinklo garso įrenginius prieinamais vietiniu "
+"mastu"
 
-#: ../src/paprefs.glade.h:3
+#: src/paprefs.glade:49 src/paprefs.glade:91 src/paprefs.glade:168
+#: src/paprefs.glade:219 src/paprefs.glade:285 src/paprefs.glade:381
+#: src/paprefs.glade:422
 msgid "Install..."
 msgstr "Įdiegti..."
 
-#: ../src/paprefs.glade.h:4
+#: src/paprefs.glade:75
 msgid "Make discoverable Apple A_irTunes sound devices available locally"
 msgstr ""
 "Paversti atrandamus Apple A_irTunes garso įrenginius prieinamais vietiniu "
 "mastu"
 
-#: ../src/paprefs.glade.h:5
+#: src/paprefs.glade:116
 msgid ""
 "<i>Apple and AirTunes are trademarks of Apple Inc., registered in the U.S. "
 "and other countries.</i>"
@@ -56,79 +63,78 @@ msgstr ""
 "<i>Apple ir AirTunes yra Apple Inc. prekių ženklai, registruoti JAV bei "
 "kitose šalyse.</i>"
 
-#: ../src/paprefs.glade.h:6
+#: src/paprefs.glade:134
 msgid "Network _Access"
 msgstr "Tinklo prieig_a"
 
-#: ../src/paprefs.glade.h:7
+#: src/paprefs.glade:153
 msgid "Enable _network access to local sound devices"
 msgstr "Leisti ti_nklo prieigą prie vietinių garso įrenginių"
 
-#: ../src/paprefs.glade.h:8
+#: src/paprefs.glade:204
 msgid "Allow other machines on the LAN to _discover local sound devices"
 msgstr ""
 "Leisti kitiems vietiniame tinkle esantiems kompiuteriams a_trasti vietinius "
 "garso įrenginius"
 
-#: ../src/paprefs.glade.h:9
+#: src/paprefs.glade:241
 msgid "Don't _require authentication"
 msgstr "Ne_reikalauti tapatybės nustatymo"
 
-#: ../src/paprefs.glade.h:10
+#: src/paprefs.glade:269
 msgid "Make local sound devices available as DLNA/_UPnP Media Server"
 msgstr ""
 "Paversti vietinius garso įrenginius prieinamus kaip DLNA/_UPnP medijos "
 "serverį"
 
-#: ../src/paprefs.glade.h:11
+#: src/paprefs.glade:316
 msgid "Create separate audio device for DLNA/UPnP media streaming"
-msgstr ""
-"Sukurti atskirą garso įrenginį, skirtą DLNA/UPnP medijos transliavimui"
+msgstr "Sukurti atskirą garso įrenginį, skirtą DLNA/UPnP medijos transliavimui"
 
-#: ../src/paprefs.glade.h:12
+#: src/paprefs.glade:346
 msgid "Network _Server"
 msgstr "Tinklo _serveris"
 
-#: ../src/paprefs.glade.h:13
+#: src/paprefs.glade:366
 msgid "Enable Multicast/RTP re_ceiver"
 msgstr "Įjungti daugiaabonenčio transliavimo/RTP imt_uvą"
 
-#: ../src/paprefs.glade.h:14
+#: src/paprefs.glade:407
 msgid "Enable Multicast/RTP s_ender"
 msgstr "Įjungti daugiaabonenčio transliavimo/RTP sių_stuvą"
 
-#: ../src/paprefs.glade.h:15
+#: src/paprefs.glade:454
 msgid "Send audio from local _microphone"
 msgstr "Siųsti garsą iš vietinio _mikrofono"
 
-#: ../src/paprefs.glade.h:16
+#: src/paprefs.glade:470
 msgid "Send audio from local spea_kers"
 msgstr "Siųsti garsą iš vietinių garsia_kalbių"
 
-#: ../src/paprefs.glade.h:17
+#: src/paprefs.glade:486
 msgid "Create separate audio device _for Multicast/RTP"
 msgstr ""
 "Sukurti atskirą garso įrenginį, sk_irtą daugiaabonenčiam transliavimui/RTP"
 
-#: ../src/paprefs.glade.h:18
+#: src/paprefs.glade:502
 msgid "_Loop back audio to local speakers"
 msgstr "_Cikliškai išvesti garsą į vietinius garsiakalbius"
 
-#: ../src/paprefs.glade.h:19
+#: src/paprefs.glade:517
 msgid "Send on fixed _port 5004"
 msgstr "Siųsti fiksuotu _prievadu 5004"
 
-#: ../src/paprefs.glade.h:20
+#: src/paprefs.glade:546
 msgid "Multicast/R_TP"
 msgstr "Daugiaabonentis transliavimas/R_TP"
 
-#: ../src/paprefs.glade.h:21
+#: src/paprefs.glade:562
 msgid ""
 "Add _virtual output device for simultaneous output on all local sound cards"
 msgstr ""
 "Pridėti _virtualų išvesties įrenginį, skirtą vienalaikei išvesčiai visose "
 "vietinėse garso plokštėse"
 
-#: ../src/paprefs.glade.h:22
+#: src/paprefs.glade:581
 msgid "Simultaneous _Output"
 msgstr "Vienalaikė _išvestis"
