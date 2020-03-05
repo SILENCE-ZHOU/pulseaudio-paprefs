@@ -1,22 +1,25 @@
 # Italian translation of paprefs
 # Copyright (C) 2009 Free Software Foundation, Inc.
 # This file is distributed under the same license as the paprefs package.
-#
+# 
 # Milo Casagrande <milo@ubuntu.com>, 2009.
 # mario_santagiuliana <mario at marionline.it>, 2009.
+# Milo Casagrande <milo@milo.name>, 2020.
 msgid ""
 msgstr ""
 "Project-Id-Version: paprefs\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2009-09-10 03:48+0200\n"
-"PO-Revision-Date: 2009-04-21 16:21+0200\n"
-"Last-Translator: mario_santagiuliana <mario at marionline.it>\n"
-"Language-Team: Italian <fedora-trans-it at redhat.com>\n"
+"PO-Revision-Date: 2020-02-26 14:38+0000\n"
+"Last-Translator: Milo Casagrande <milo@milo.name>\n"
+"Language-Team: Italian <https://translate.fedoraproject.org/projects/"
+"pulseaudio/paprefs/it/>\n"
+"Language: it\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Lokalize 0.3\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 3.11.2\n"
 
 #: ../src/paprefs.desktop.in.h:1 ../src/paprefs.glade.h:17
 msgid "PulseAudio Preferences"
@@ -31,13 +34,12 @@ msgid "View and modify the configuration of the local sound server"
 msgstr "Visualizza e modifica la configurazione del server sonoro locale"
 
 #: ../src/paprefs.glade.h:1
-#, fuzzy
 msgid ""
 "<i>Apple and AirTunes are trademarks of Apple Inc., registered in the U.S. "
 "and other countries.</i>"
 msgstr ""
-"<i>Apple e Airtunes sono marchi di Apple Inc., registrati in U.S. e altri "
-"paesi.</i>"
+"<i>Apple e AirTunes sono marchi di Apple Inc., registrati in U.S. e altri "
+"Paesi.</i>"
 
 # (ndt) mai vista un'opzione così lunga
 #: ../src/paprefs.glade.h:2
@@ -54,27 +56,22 @@ msgstr ""
 "locali"
 
 #: ../src/paprefs.glade.h:4
-#, fuzzy
 msgid "Create separate audio device _for Multicast/RTP"
-msgstr "Creare _device audio separati per Multicast/RTP"
+msgstr "Creare _dispositivi audio separati per Multicast/RTP"
 
 #: ../src/paprefs.glade.h:5
-#, fuzzy
 msgid "Create separate audio device for DLNA/UPnP media streaming"
-msgstr "Creare _device audio separati per Multicast/RTP"
+msgstr "Creare dispositivi audio separati per streaming DLNA/UPnP"
 
 #: ../src/paprefs.glade.h:6
-#, fuzzy
 msgid "Don't _require authentication"
 msgstr "Non richiedere _autenticazione"
 
 #: ../src/paprefs.glade.h:7
-#, fuzzy
 msgid "Enable Multicast/RTP re_ceiver"
 msgstr "Abilitare _ricevitori Multicast/RTP"
 
 #: ../src/paprefs.glade.h:8
-#, fuzzy
 msgid "Enable Multicast/RTP s_ender"
 msgstr "Abilitare emettitori Multica_st/RTP"
 
@@ -84,12 +81,11 @@ msgstr "Abilitare accesso di rete ai dispositivi so_nori locali"
 
 #: ../src/paprefs.glade.h:10
 msgid "Install..."
-msgstr ""
+msgstr "Installa..."
 
 #: ../src/paprefs.glade.h:11
-#, fuzzy
 msgid "Make discoverable Apple A_irTunes sound devices available locally"
-msgstr "Rendere i dispositivi sonori Apple Air_tunes disponibili localmente"
+msgstr "Rendere i dispositivi sonori Apple AirTunes disponibili _localmente"
 
 #: ../src/paprefs.glade.h:12
 #, fuzzy
@@ -105,21 +101,18 @@ msgid "Multicast/R_TP"
 msgstr "Multicast/R_TP"
 
 #: ../src/paprefs.glade.h:15
-#, fuzzy
 msgid "Network _Access"
 msgstr "Acc_esso alla rete"
 
 #: ../src/paprefs.glade.h:16
-#, fuzzy
 msgid "Network _Server"
-msgstr "Acc_esso alla rete"
+msgstr "_Server di rete"
 
 #: ../src/paprefs.glade.h:18
 msgid "Send audio from local _microphone"
 msgstr "Inviare l'audio dal _microfono locale"
 
 #: ../src/paprefs.glade.h:19
-#, fuzzy
 msgid "Send audio from local spea_kers"
 msgstr "Inviare audio dagli alto_parlanti locali"
 
