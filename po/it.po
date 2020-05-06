@@ -11,7 +11,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: https://gitlab.freedesktop.org/pulseaudio/paprefs/"
 "issues/new\n"
 "POT-Creation-Date: 2020-02-13 09:37+0200\n"
-"PO-Revision-Date: 2020-02-26 14:38+0000\n"
+"PO-Revision-Date: 2020-05-06 16:40+0000\n"
 "Last-Translator: Milo Casagrande <milo@milo.name>\n"
 "Language-Team: Italian <https://translate.fedoraproject.org/projects/"
 "pulseaudio/paprefs/it/>\n"
@@ -20,7 +20,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 3.11.2\n"
+"X-Generator: Weblate 4.0.3\n"
 
 #: src/paprefs.desktop.in:5 src/paprefs.glade:7
 msgid "PulseAudio Preferences"
@@ -39,9 +39,8 @@ msgid "preferences-desktop"
 msgstr ""
 
 #: src/paprefs.glade:33
-#, fuzzy
 msgid "Make discoverable _PulseAudio network sound devices available locally"
-msgstr "Rendere i dispositivi sonori via rete disponibili local_mente"
+msgstr "Rendere i dispositivi sonori di rete PulseAudio disponibili local_mente"
 
 #: src/paprefs.glade:49 src/paprefs.glade:91 src/paprefs.glade:168
 #: src/paprefs.glade:219 src/paprefs.glade:285 src/paprefs.glade:381
@@ -81,7 +80,7 @@ msgstr "Non richiedere _autenticazione"
 
 #: src/paprefs.glade:269
 msgid "Make local sound devices available as DLNA/_UPnP Media Server"
-msgstr ""
+msgstr "Rendere i dispositivi sonori locali disponibili come DLNA/_UPnP"
 
 #: src/paprefs.glade:316
 msgid "Create separate audio device for DLNA/UPnP media streaming"
@@ -105,14 +104,13 @@ msgstr "Inviare l'audio dal _microfono locale"
 
 #: src/paprefs.glade:470
 msgid "Send audio from local spea_kers"
-msgstr "Inviare audio dagli alto_parlanti locali"
+msgstr "Inviare l'audio dagli alto_parlanti locali"
 
 #: src/paprefs.glade:486
 msgid "Create separate audio device _for Multicast/RTP"
 msgstr "Creare _dispositivi audio separati per Multicast/RTP"
 
 #: src/paprefs.glade:502
-#, fuzzy
 msgid "_Loop back audio to local speakers"
 msgstr "Riprodurre l'audio sugli altoparlanti _locali"
 
@@ -133,9 +131,8 @@ msgstr ""
 "locali"
 
 #: src/paprefs.glade:581
-#, fuzzy
 msgid "Simultaneous _Output"
-msgstr "_Uscita contemporanea"
+msgstr "_Uscita simultanea"
 
 # (ndt) questa è la descrizione che si vede nella finestra principale
 #~ msgid ""
