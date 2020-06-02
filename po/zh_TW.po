@@ -8,115 +8,118 @@ msgstr ""
 "Report-Msgid-Bugs-To: https://gitlab.freedesktop.org/pulseaudio/paprefs/"
 "issues/new\n"
 "POT-Creation-Date: 2020-02-13 09:37+0200\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
+"PO-Revision-Date: 2020-05-24 12:40+0000\n"
+"Last-Translator: Yi-Jyun Pan <pan93412@gmail.com>\n"
+"Language-Team: Chinese (Traditional) <https://translate.fedoraproject.org/"
+"projects/pulseaudio/paprefs/zh_TW/>\n"
 "Language: zh_TW\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Weblate 4.0.4\n"
 
 #: src/paprefs.desktop.in:5 src/paprefs.glade:7
 msgid "PulseAudio Preferences"
-msgstr ""
+msgstr "PulseAudio 偏好設定"
 
 #: src/paprefs.desktop.in:6
 msgid "Sound Server Preferences"
-msgstr ""
+msgstr "音訊伺服器偏好設定"
 
 #: src/paprefs.desktop.in:7
 msgid "View and modify the configuration of the local sound server"
-msgstr ""
+msgstr "檢視並變更本機音效伺服器的設定"
 
 #: src/paprefs.desktop.in:9
 msgid "preferences-desktop"
-msgstr ""
+msgstr "preferences-desktop"
 
 #: src/paprefs.glade:33
 msgid "Make discoverable _PulseAudio network sound devices available locally"
-msgstr ""
+msgstr "讓可探索的 _PulseAudio 網路音訊裝置能在本機使用"
 
 #: src/paprefs.glade:49 src/paprefs.glade:91 src/paprefs.glade:168
 #: src/paprefs.glade:219 src/paprefs.glade:285 src/paprefs.glade:381
 #: src/paprefs.glade:422
 msgid "Install..."
-msgstr ""
+msgstr "安裝…"
 
 #: src/paprefs.glade:75
 msgid "Make discoverable Apple A_irTunes sound devices available locally"
-msgstr ""
+msgstr "讓可探索的 Apple A_irTunes 音訊裝置能在本機使用"
 
 #: src/paprefs.glade:116
 msgid ""
 "<i>Apple and AirTunes are trademarks of Apple Inc., registered in the U.S. "
 "and other countries.</i>"
-msgstr ""
+msgstr "<i>Apple 和 AirTunes 是 Apple Inc. 註冊於美國及其他國家的商標。</i>"
 
 #: src/paprefs.glade:134
 msgid "Network _Access"
-msgstr ""
+msgstr "網路存取(_A)"
 
 #: src/paprefs.glade:153
 msgid "Enable _network access to local sound devices"
-msgstr ""
+msgstr "啟用本機音訊裝置的網路存取(_N)"
 
 #: src/paprefs.glade:204
 msgid "Allow other machines on the LAN to _discover local sound devices"
-msgstr ""
+msgstr "允許其他 LAN 上的主機探索本機音訊裝置(_D)"
 
 #: src/paprefs.glade:241
 msgid "Don't _require authentication"
-msgstr ""
+msgstr "不要求身分驗證(_R)"
 
 #: src/paprefs.glade:269
 msgid "Make local sound devices available as DLNA/_UPnP Media Server"
-msgstr ""
+msgstr "讓本機音訊裝置能以 DLNA/_UPnP 媒體伺服器使用"
 
 #: src/paprefs.glade:316
 msgid "Create separate audio device for DLNA/UPnP media streaming"
-msgstr ""
+msgstr "建立獨立供 DLNA/UPnP 媒體串流的音訊裝置"
 
 #: src/paprefs.glade:346
 msgid "Network _Server"
-msgstr ""
+msgstr "網路伺服器(_S)"
 
 #: src/paprefs.glade:366
 msgid "Enable Multicast/RTP re_ceiver"
-msgstr ""
+msgstr "啟用 Multicast/RTP 接收方(_C)"
 
 #: src/paprefs.glade:407
 msgid "Enable Multicast/RTP s_ender"
-msgstr ""
+msgstr "啟用 Multicast/RTP 傳送方(_E)"
 
 #: src/paprefs.glade:454
 msgid "Send audio from local _microphone"
-msgstr ""
+msgstr "傳送本機麥克風的音訊(_M)"
 
 #: src/paprefs.glade:470
 msgid "Send audio from local spea_kers"
-msgstr ""
+msgstr "傳送本機喇叭的音訊(_K)"
 
 #: src/paprefs.glade:486
 msgid "Create separate audio device _for Multicast/RTP"
-msgstr ""
+msgstr "建立獨立供 Multicast/RTP 的音訊裝置(_F)"
 
 #: src/paprefs.glade:502
 msgid "_Loop back audio to local speakers"
-msgstr ""
+msgstr "將音訊迴路回本機喇叭(_L)"
 
 #: src/paprefs.glade:517
 msgid "Send on fixed _port 5004"
-msgstr ""
+msgstr "在固定連線埠 5004 傳送(_P)"
 
 #: src/paprefs.glade:546
 msgid "Multicast/R_TP"
-msgstr ""
+msgstr "Multicast/R_TP"
 
 #: src/paprefs.glade:562
 msgid ""
 "Add _virtual output device for simultaneous output on all local sound cards"
-msgstr ""
+msgstr "加入用來同時在所有本機聲卡輸出的虛擬輸出裝置(_V)"
 
 #: src/paprefs.glade:581
 msgid "Simultaneous _Output"
-msgstr ""
+msgstr "同時輸出(_O)"
