@@ -36,8 +36,9 @@ msgstr ""
 msgid "Make discoverable _PulseAudio network sound devices available locally"
 msgstr ""
 
-#: src/paprefs.glade:49 src/paprefs.glade:91 src/paprefs.glade:168 src/paprefs.glade:219
-#: src/paprefs.glade:285 src/paprefs.glade:381 src/paprefs.glade:422
+#: src/paprefs.glade:49 src/paprefs.glade:91 src/paprefs.glade:168
+#: src/paprefs.glade:219 src/paprefs.glade:285 src/paprefs.glade:381
+#: src/paprefs.glade:422
 msgid "Install..."
 msgstr ""
 
@@ -47,8 +48,8 @@ msgstr ""
 
 #: src/paprefs.glade:116
 msgid ""
-"<i>Apple and AirTunes are trademarks of Apple Inc., registered in the U.S. and other "
-"countries.</i>"
+"<i>Apple and AirTunes are trademarks of Apple Inc., registered in the U.S. "
+"and other countries.</i>"
 msgstr ""
 
 #: src/paprefs.glade:134
@@ -112,7 +113,8 @@ msgid "Multicast/R_TP"
 msgstr ""
 
 #: src/paprefs.glade:562
-msgid "Add _virtual output device for simultaneous output on all local sound cards"
+msgid ""
+"Add _virtual output device for simultaneous output on all local sound cards"
 msgstr ""
 
 #: src/paprefs.glade:581

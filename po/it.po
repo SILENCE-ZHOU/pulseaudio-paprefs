@@ -40,7 +40,8 @@ msgstr ""
 
 #: src/paprefs.glade:33
 msgid "Make discoverable _PulseAudio network sound devices available locally"
-msgstr "Rendere i dispositivi sonori di rete PulseAudio disponibili local_mente"
+msgstr ""
+"Rendere i dispositivi sonori di rete PulseAudio disponibili local_mente"
 
 #: src/paprefs.glade:49 src/paprefs.glade:91 src/paprefs.glade:168
 #: src/paprefs.glade:219 src/paprefs.glade:285 src/paprefs.glade:381
