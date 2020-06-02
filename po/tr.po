@@ -1,14 +1,15 @@
 # translation of de.po to Turkish
 # Necmettin Begiter <necmettin.begiter@gmail.com>, 2008.
 # Sabri Ünal <libreajans@gmail.com>, 2020.
+# Oğuz Ersen <oguzersen@protonmail.com>, 2020.
 msgid ""
 msgstr ""
 "Project-Id-Version: de\n"
 "Report-Msgid-Bugs-To: https://gitlab.freedesktop.org/pulseaudio/paprefs/"
 "issues/new\n"
 "POT-Creation-Date: 2020-02-13 09:37+0200\n"
-"PO-Revision-Date: 2020-03-05 18:38+0000\n"
-"Last-Translator: Sabri Ünal <libreajans@gmail.com>\n"
+"PO-Revision-Date: 2020-05-13 20:40+0000\n"
+"Last-Translator: Oğuz Ersen <oguzersen@protonmail.com>\n"
 "Language-Team: Turkish <https://translate.fedoraproject.org/projects/"
 "pulseaudio/paprefs/tr/>\n"
 "Language: tr\n"
@@ -16,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 3.11.2\n"
+"X-Generator: Weblate 4.0.4\n"
 "X-Poedit-Language: German\n"
 "X-Poedit-Country: GERMANY\n"
 
@@ -30,7 +31,7 @@ msgstr "Ses Sunucusu Tercihleri"
 
 #: src/paprefs.desktop.in:7
 msgid "View and modify the configuration of the local sound server"
-msgstr "Yerel ses sunucusunun yapılandırmasına bak ve değiştir"
+msgstr "Yerel ses sunucusunun yapılandırmasını görüntüle ve değiştir"
 
 #: src/paprefs.desktop.in:9
 msgid "preferences-desktop"
@@ -58,8 +59,8 @@ msgid ""
 "<i>Apple and AirTunes are trademarks of Apple Inc., registered in the U.S. "
 "and other countries.</i>"
 msgstr ""
-"<i>Apple ve AirTunes, Apple Inc.'in ABD ve diğer ülkelerde tescilli ticari "
-"markalarıdır.</i>"
+"<i>Apple ve AirTunes, Apple Inc. şirketinin ABD ve diğer ülkelerdeki "
+"tescilli ticari markalarıdır.</i>"
 
 #: src/paprefs.glade:134
 msgid "Network _Access"
@@ -72,7 +73,7 @@ msgstr "Yerel ses aygıtlarına ağ _erişimini aç"
 #: src/paprefs.glade:204
 msgid "Allow other machines on the LAN to _discover local sound devices"
 msgstr ""
-"Yerel ağdaki diğer makinaların yerel ses aygıtlarını keşfetmesine _izin ver"
+"Yerel ağdaki diğer makinelerin yerel ses aygıtlarını keşfetmesine _izin ver"
 
 #: src/paprefs.glade:241
 msgid "Don't _require authentication"
