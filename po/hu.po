@@ -3,21 +3,23 @@
 # This file is distributed under the same license as the pulseaudio package.
 #
 # Gabor Kelemen <kelemeng@gnome.hu>, 2008.
+# Balázs Meskó <meskobalazs@mailbox.org>, 2020.
 msgid ""
 msgstr ""
-"Project-Id-Version: HEAD \n"
+"Project-Id-Version: HEAD\n"
 "Report-Msgid-Bugs-To: https://gitlab.freedesktop.org/pulseaudio/paprefs/"
 "issues/new\n"
 "POT-Creation-Date: 2020-02-13 09:37+0200\n"
-"PO-Revision-Date: 2008-08-29 01:38+0200\n"
-"Last-Translator: Gabor Kelemen <kelemeng@gnome.hu>\n"
-"Language-Team: Hungarian <gnome@fsf.hu>\n"
+"PO-Revision-Date: 2020-07-21 15:29+0000\n"
+"Last-Translator: Balázs Meskó <meskobalazs@mailbox.org>\n"
+"Language-Team: Hungarian <https://translate.fedoraproject.org/projects/"
+"pulseaudio/paprefs/hu/>\n"
 "Language: hu\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: KBabel 1.11.4\n"
-"Plural-Forms:  nplurals=2; plural=(n != 1);\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 4.1.1\n"
 
 #: src/paprefs.desktop.in:5 src/paprefs.glade:7
 msgid "PulseAudio Preferences"
@@ -36,29 +38,31 @@ msgid "preferences-desktop"
 msgstr ""
 
 #: src/paprefs.glade:33
-#, fuzzy
 msgid "Make discoverable _PulseAudio network sound devices available locally"
-msgstr "A _feltérképezhető hálózati eszközök legyenek helyileg elérhetők"
+msgstr ""
+"A feltérképezhető _PulseAudio hálózati hangeszközök legyenek helyileg "
+"elérhetők"
 
 #: src/paprefs.glade:49 src/paprefs.glade:91 src/paprefs.glade:168
 #: src/paprefs.glade:219 src/paprefs.glade:285 src/paprefs.glade:381
 #: src/paprefs.glade:422
 msgid "Install..."
-msgstr ""
+msgstr "Telepítés…"
 
 #: src/paprefs.glade:75
-#, fuzzy
 msgid "Make discoverable Apple A_irTunes sound devices available locally"
-msgstr "A _feltérképezhető hálózati eszközök legyenek helyileg elérhetők"
+msgstr ""
+"A feltérképezhető Apple A_irTunes hangeszközök legyenek helyileg elérhetők"
 
 #: src/paprefs.glade:116
 msgid ""
 "<i>Apple and AirTunes are trademarks of Apple Inc., registered in the U.S. "
 "and other countries.</i>"
 msgstr ""
+"<i>Az Apple és az AirTunes az Apple Inc. bejegyzett védjegye az USA-ban és "
+"más országokban.</i>"
 
 #: src/paprefs.glade:134
-#, fuzzy
 msgid "Network _Access"
 msgstr "Hálózati ho_zzáférés"
 
@@ -71,31 +75,26 @@ msgid "Allow other machines on the LAN to _discover local sound devices"
 msgstr "A _helyi hálózat más gépei feltérképezhetik a helyi hangeszközöket"
 
 #: src/paprefs.glade:241
-#, fuzzy
 msgid "Don't _require authentication"
 msgstr "_Ne kérjen hitelesítést"
 
 #: src/paprefs.glade:269
 msgid "Make local sound devices available as DLNA/_UPnP Media Server"
-msgstr ""
+msgstr "A helyi hangeszközök legyenek elérhetők DLNA/_UPnP médiakiszolgálóként"
 
 #: src/paprefs.glade:316
-#, fuzzy
 msgid "Create separate audio device for DLNA/UPnP media streaming"
-msgstr "_Külön hangeszköz létrehozása a Multicast/RTP-hez"
+msgstr "Külön hangeszköz létrehozása a DLNA-hoz/UPnP médiaközvetítéshez"
 
 #: src/paprefs.glade:346
-#, fuzzy
 msgid "Network _Server"
-msgstr "Hálózati ho_zzáférés"
+msgstr "Hálózati _kiszolgáló"
 
 #: src/paprefs.glade:366
-#, fuzzy
 msgid "Enable Multicast/RTP re_ceiver"
 msgstr "Multicast/RTP foga_dó engedélyezése"
 
 #: src/paprefs.glade:407
-#, fuzzy
 msgid "Enable Multicast/RTP s_ender"
 msgstr "Multicast/RTP küldő _engedélyezése"
 
@@ -104,19 +103,16 @@ msgid "Send audio from local _microphone"
 msgstr "Hang küldése a helyi _mikrofonból"
 
 #: src/paprefs.glade:470
-#, fuzzy
 msgid "Send audio from local spea_kers"
 msgstr "H_ang küldése a helyi hangszórókból"
 
 #: src/paprefs.glade:486
-#, fuzzy
 msgid "Create separate audio device _for Multicast/RTP"
-msgstr "_Külön hangeszköz létrehozása a Multicast/RTP-hez"
+msgstr "_Külön hangeszköz létrehozása a Multicasthoz/RTP-hez"
 
 #: src/paprefs.glade:502
-#, fuzzy
 msgid "_Loop back audio to local speakers"
-msgstr "Hang küldése a hel_yi hangszórókra"
+msgstr "Hang visszaküldése a hel_yi hangszórókra"
 
 #: src/paprefs.glade:517
 msgid "Send on fixed _port 5004"
@@ -134,7 +130,6 @@ msgstr ""
 "minden helyi hangkártyán"
 
 #: src/paprefs.glade:581
-#, fuzzy
 msgid "Simultaneous _Output"
 msgstr "_Párhuzamos kimenet"
 
