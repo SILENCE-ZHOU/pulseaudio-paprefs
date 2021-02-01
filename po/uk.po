@@ -2,23 +2,24 @@
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
 #
-# Yuri Chornoivan <yurchor@ukr.net>, 2009.
+# Yuri Chornoivan <yurchor@ukr.net>, 2009, 2021.
 msgid ""
 msgstr ""
 "Project-Id-Version: paprefs\n"
 "Report-Msgid-Bugs-To: https://gitlab.freedesktop.org/pulseaudio/paprefs/"
 "issues/new\n"
 "POT-Creation-Date: 2020-02-13 09:37+0200\n"
-"PO-Revision-Date: 2009-08-27 09:17+0300\n"
+"PO-Revision-Date: 2021-02-01 09:40+0000\n"
 "Last-Translator: Yuri Chornoivan <yurchor@ukr.net>\n"
-"Language-Team: Ukrainian <translation@linux.org.ua>\n"
+"Language-Team: Ukrainian <https://translate.fedoraproject.org/projects/"
+"pulseaudio/paprefs/uk/>\n"
 "Language: uk\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Lokalize 0.3\n"
-"Plural-Forms:  nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
-"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
+"X-Generator: Weblate 4.4.2\n"
 
 #: src/paprefs.desktop.in:5 src/paprefs.glade:7
 msgid "PulseAudio Preferences"
@@ -34,7 +35,7 @@ msgstr "Перегляньте і змініть налаштування лок
 
 #: src/paprefs.desktop.in:9
 msgid "preferences-desktop"
-msgstr ""
+msgstr "preferences-desktop"
 
 #: src/paprefs.glade:33
 msgid "Make discoverable _PulseAudio network sound devices available locally"
@@ -115,7 +116,7 @@ msgstr "_Циклічне виведення звуку на локальні г
 
 #: src/paprefs.glade:517
 msgid "Send on fixed _port 5004"
-msgstr ""
+msgstr "Надіслати на фіксований _порт 5004"
 
 #: src/paprefs.glade:546
 msgid "Multicast/R_TP"
