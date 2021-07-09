@@ -3,14 +3,15 @@
 # This file is distributed under the same license as the PACKAGE package.
 #
 # Leah Liu <lliu@redhat.com>, 2009.
+# Zhou Nan <zhounan@nfschina.com>, 2021.
 msgid ""
 msgstr ""
 "Project-Id-Version: paprefs.master-tx.paprefs\n"
 "Report-Msgid-Bugs-To: https://gitlab.freedesktop.org/pulseaudio/paprefs/"
 "issues/new\n"
 "POT-Creation-Date: 2020-02-13 09:37+0200\n"
-"PO-Revision-Date: 2009-04-03 19:14+1000\n"
-"Last-Translator: Leah Liu <lliu@redhat.com>\n"
+"PO-Revision-Date: 2021-07-09 09:17+0800\n"
+"Last-Translator: Zhou Nan <zhounan@nfschina.com>\n"
 "Language-Team: Simplified Chinese <zh@li.org>\n"
 "Language: \n"
 "MIME-Version: 1.0\n"
@@ -32,34 +33,32 @@ msgstr "查看及修改本地声音服务器配置"
 
 #: src/paprefs.desktop.in:9
 msgid "preferences-desktop"
-msgstr ""
+msgstr "桌面首选项"
 
 #: src/paprefs.glade:33
-#, fuzzy
 msgid "Make discoverable _PulseAudio network sound devices available locally"
-msgstr "使可找到的网络声音设备在本地可用（_M）"
+msgstr "使发现的 PulseAudio 网络声音设备本地可用（_P）"
 
 #: src/paprefs.glade:49 src/paprefs.glade:91 src/paprefs.glade:168
 #: src/paprefs.glade:219 src/paprefs.glade:285 src/paprefs.glade:381
 #: src/paprefs.glade:422
 msgid "Install..."
-msgstr ""
+msgstr "安装中..."
 
 #: src/paprefs.glade:75
-#, fuzzy
 msgid "Make discoverable Apple A_irTunes sound devices available locally"
-msgstr "使可找到的网络声音设备在本地可用（_M）"
+msgstr "使发现的苹果 A_irTunes 网络声音设备本地可用（_A）"
 
 #: src/paprefs.glade:116
 msgid ""
 "<i>Apple and AirTunes are trademarks of Apple Inc., registered in the U.S. "
 "and other countries.</i>"
-msgstr ""
+msgstr "<i> Apple 和 AirTunes 是苹果公司在美国和其他国家注册的商标。</i>"
 
 #: src/paprefs.glade:134
 #, fuzzy
 msgid "Network _Access"
-msgstr "网络访问（_e）"
+msgstr "网络访问（_A）"
 
 #: src/paprefs.glade:153
 msgid "Enable _network access to local sound devices"
@@ -70,23 +69,20 @@ msgid "Allow other machines on the LAN to _discover local sound devices"
 msgstr "允许 LAN 中的其它机器发现（_d）本地声音设备"
 
 #: src/paprefs.glade:241
-#, fuzzy
 msgid "Don't _require authentication"
-msgstr "不需要验证（_a）"
+msgstr "不需要认证（_r）"
 
 #: src/paprefs.glade:269
 msgid "Make local sound devices available as DLNA/_UPnP Media Server"
-msgstr ""
+msgstr "使本地声音设备作为 DLNA/_UPnP 媒体服务器可用"
 
 #: src/paprefs.glade:316
-#, fuzzy
 msgid "Create separate audio device for DLNA/UPnP media streaming"
-msgstr "为多广播/RTP 创建独立音频设备（_d）"
+msgstr "为 DLNA/UPnP 媒体流创建单独的音频设备"
 
 #: src/paprefs.glade:346
-#, fuzzy
 msgid "Network _Server"
-msgstr "网络访问（_e）"
+msgstr "网络服务器（_S）"
 
 #: src/paprefs.glade:366
 #, fuzzy
@@ -113,13 +109,12 @@ msgid "Create separate audio device _for Multicast/RTP"
 msgstr "为多广播/RTP 创建独立音频设备（_d）"
 
 #: src/paprefs.glade:502
-#, fuzzy
 msgid "_Loop back audio to local speakers"
-msgstr "到本地音箱的回路（_L）音频"
+msgstr "将音频回传给本地扬声器（_L）"
 
 #: src/paprefs.glade:517
 msgid "Send on fixed _port 5004"
-msgstr ""
+msgstr "在固定端口5004发送（_p）"
 
 #: src/paprefs.glade:546
 msgid "Multicast/R_TP"
@@ -131,9 +126,8 @@ msgid ""
 msgstr "在所有本地声卡中为模拟输出添加虚拟（_v）输出设备"
 
 #: src/paprefs.glade:581
-#, fuzzy
 msgid "Simultaneous _Output"
-msgstr "模拟（_u）输出"
+msgstr "同时（_O）输出"
 
 #~ msgid ""
 #~ "<span color=\"black\">View and modify the configuration of your local "
@@ -142,4 +136,4 @@ msgstr "模拟（_u）输出"
 
 #~ msgid ""
 #~ "<span size=\"18000\" color=\"black\"><b>PulseAudio Preferences</b></span>"
-#~ msgstr "<span size=\"18000\" color=\"black\"><b>PulseAudio 属性</b></span>"
+#~ msgstr "<span size=\"18000\" color=\"black\"><b>脉冲音频属性</b></span>"
